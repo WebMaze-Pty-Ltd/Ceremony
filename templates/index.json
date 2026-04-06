@@ -291,7 +291,7 @@
         "tab_JAzVrn": {
           "type": "tab",
           "settings": {
-            "title": "NATASHA SIDERIS",
+            "title": "Natasha Sideris",
             "kicker": "CEO TASHAS GROUP",
             "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual - not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.”</p>"
           }
@@ -299,57 +299,57 @@
         "tab_naP3XB": {
           "type": "tab",
           "settings": {
-            "title": "RYAN COLE",
-            "kicker": "Testing Role",
-            "content": "<p>More lorem ipsum.</p>"
+            "title": "Ryan Cole",
+            "kicker": "HEAD CHEF AT SALSIFY",
+            "content": "<p>Ceremony resonates with me because ...</p>"
           }
         },
         "tab_FrGJPf": {
           "type": "tab",
           "settings": {
-            "title": "BRAAM BEYERS",
-            "kicker": "",
-            "content": "<p>TESTING</p>"
+            "title": "Braam Beyers",
+            "kicker": "Previously: Beau Constantia, Tintswalo Atlantic, Benu ❀❀❀ , Eleven Madison Park ❀❀❀ , ASKA ❀❀ , Institut Paul Bocuse graduate",
+            "content": "<p>For me, food and beverage come down to three key elements: Sourcing the best product, delivering exceptional service and presenting it in an elegant, considered way. Ceremony Matcha embodies all three. There is a clear dedication to understanding the origin of matcha, respecting its preparation, and presenting it with a refined, modern sensibility.</p><p>Beyond enjoying their beverages, I consistently incorporate Ceremony Matcha into my dessert work, from whipped cheesecake and matcha ganache to filled choux — because of its purity, balance and reliability as an ingredient.  Ceremony Matcha is, quite simply, my standard.  </p>"
           }
         },
         "tab_PRLA6E": {
           "type": "tab",
           "settings": {
             "title": "Kira Jacobs",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Michelin-trained chef, Ceremony Menu development",
+            "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.</p>"
           }
         },
         "tab_rppegq": {
           "type": "tab",
           "settings": {
-            "title": "CHIARA TURELLI",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "title": "Chiara Turelli",
+            "kicker": "Co-Owner of Lello’s",
+            "content": "<p>I connected with Mikayla through our shared loved of quality. I admire the way she lives through her matcha daily. I drink Ceremony matcha with no milk, no sugar. The flavour profile of Ceremony is sacred for me as its flavour is grounded and full.</p>"
           }
         },
         "tab_7aiD7Q": {
           "type": "tab",
           "settings": {
-            "title": "YAEL PINER",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "title": "Yael Lapiner",
+            "kicker": "Culinary professional, board certified nutritional coach, consultant in food research & development, trend forecasting & strategist.",
+            "content": "<p>I’ve always been selective about matcha. From the perspective of a chef it has to tick three boxes. Origin, integrity & flavour. Ceremony ticks all three. Ceremony understands that matcha is more than a trend.</p><p>Ceremony deeply respects the roots of the ritual, the agricultural craftsmanship from leaf to tea & has gone straight to the source for us all to participate in this ancient, sacred ritual. This level of attention & devotion to quality reflects a seriousness that I look for as a quality control freak when procuring anything for myself or my clients.</p>"
           }
         },
         "tab_F7RNXU": {
           "type": "tab",
           "settings": {
             "title": "Stephanie Anastasopoulos",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Owner and Director - Arthur’s Mini Super",
+            "content": "<p>Ceremony’s triple matcha with full cream milk has become a treasured ritual for me. I can’t stay away. I don’t even drink coffee anymore which is sad because I have a coffee shop. I’m also a big fan of their togarashi cube (cheesy, flaky, buttery scone with a kick); the black sesame banana bread and the earl grey iced tea with lavender honey - yum!</p>"
           }
         },
         "tab_JeT84F": {
           "type": "tab",
           "settings": {
             "title": "David Schneider",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Owner and chef - chefs warehouse",
+            "content": "<p>Ceremony’s triple matcha with full cream milk has become a treasured ritual for me. I can’t stay away. I don’t even drink coffee anymore which is sad because I have a coffee shop. I’m also a big fan of their togarashi cube (cheesy, flaky, buttery scone with a kick); the black sesame banana bread and the earl grey iced tea with lavender honey - yum!</p>"
           }
         }
       },
@@ -382,7 +382,7 @@
         "brick_gutter": 0,
         "borders": false,
         "preload_image": false,
-        "padding_top": 30,
+        "padding_top": 20,
         "padding_bottom": 60
       }
     },
