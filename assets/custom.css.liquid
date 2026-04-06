@@ -83,6 +83,10 @@
   --kicker-custom-letter-spacing: 8%;
   --kicker-custom-font-weight: 300;
 
+  /* Small Font Variables (12px / 0.75rem) */
+  --font-small-size: 0.75rem;
+  --font-small-letter-spacing: 5%;
+
   /* Product Card Variables */
   --product-card-font-size: 0.75rem;
   --product-card-font-weight: 300;
@@ -96,6 +100,7 @@
   font-size: var(--product-card-font-size);
   font-weight: var(--product-card-font-weight);
   text-transform: var(--product-card-text-transform);
+  letter-spacing: var(--font-small-letter-spacing);
 }
 
 @media (max-width: 786px) {
@@ -116,13 +121,35 @@
 }
 
 /* Product Page */
-.product__block__price span {
-  font-family: "Amiri", serif !important;
-  letter-spacing: -5%;
+.product-section {
+  padding-top: 36px;
 }
 
-.product__block__title .product__title {
-  font-family: "Amriri", serif !important;
+.product-section .product__inner {
+  margin-top: 160px;
+}
+
+.product-section .product__title,
+.product-section .product__price {
+  font-family: "Amiri", serif;
+  font-size: var(--heading-custom-font-size);
+  font-weight: 400;
+  line-height: var(--heading-custom-line-height);
+  letter-spacing: var(--heading-custom-letter-spacing);
+}
+
+.product-section .product__price {
+  font-size: 2rem;
+}
+
+.product-section .product__block__description,
+.product-section .product__block__description a,
+.product-section .product__block__description span {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: var(--font-small-size);
+  font-weight: 300;
+  line-height: var(--body-custom-line-height);
+  letter-spacing: var(--font-small-letter-spacing);
 }
 
 /* Button & FAQ Styles */
@@ -171,9 +198,9 @@
 /* Rich Text Kicker - Custom Kicker Font Style */
 .text__standard .standard__kicker p {
   font-family: "Helvetica Neue", sans-serif;
-  --kicker-custom-font-size: 0.75rem;
-  --kicker-custom-letter-spacing: 8%;
-  --kicker-custom-font-weight: 300;
+  font-size: var(--font-small-size);
+  font-weight: 300;
+  letter-spacing: var(--kicker-custom-letter-spacing);
 }
 
 /* Rich Text Body - Custom Body Font Style */
@@ -188,10 +215,10 @@
 /* Rich Text CTA - Custom Body Font Style */
 .text__standard .standard__cta {
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 0.75rem;
+  font-size: var(--font-small-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
-  letter-spacing: var(--body-custom-letter-spacing);
+  letter-spacing: var(--font-small-letter-spacing);
 }
 
 /* Collection List - Custom Style */
@@ -239,10 +266,10 @@
 
 .brick__section .brick-tabs__panel-content {
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 0.75rem;
+  font-size: var(--font-small-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
-  letter-spacing: var(--body-custom-letter-spacing);
+  letter-spacing: var(--font-small-letter-spacing);
 }
 
 .brick__section .brick-tabs__nav {
@@ -342,4 +369,21 @@
 
 .section-logos .kicker-flourished::after {
   display: none;
+}
+
+/* Product Page Image + Accordion - Custom Styles */
+.section-pair-hotspots-accordion button {
+  font-family: "Amiri", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: var(--heading-custom-line-height);
+  letter-spacing: var(--heading-custom-letter-spacing);
+}
+
+.section-pair-hotspots-accordion p {
+  font-family: "Helvetica Neue", sans-serif !important;
+  font-size: var(--font-small-size) !important;
+  font-weight: 300 !important;
+  line-height: calc(var(--body-custom-line-height) * 0.75) !important;
+  letter-spacing: var(--font-small-letter-spacing) !important;
 }

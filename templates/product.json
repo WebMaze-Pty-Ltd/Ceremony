@@ -12,15 +12,6 @@
     "main": {
       "type": "product",
       "blocks": {
-        "spacer_fGNzmR": {
-          "type": "spacer",
-          "settings": {
-            "show_line": false,
-            "target_device": "hidden-mobile",
-            "padding_top": 30,
-            "padding_bottom": 10
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -87,7 +78,6 @@
         }
       },
       "block_order": [
-        "spacer_fGNzmR",
         "title",
         "description",
         "price",
@@ -114,6 +104,61 @@
         "width": "wrapper",
         "padding_top": 10,
         "padding_bottom": 36
+      }
+    },
+    "section_hero_qrpC6i": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_qxF7J6": {
+          "type": "heading",
+          "settings": {
+            "title": "Real People,",
+            "text_size": 8
+          }
+        },
+        "heading_LYY6pU": {
+          "type": "heading",
+          "settings": {
+            "title": "Real Community",
+            "text_size": 8
+          }
+        },
+        "text_cYTqf3": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Naturally active matcha compounds.</p>",
+            "text_size": 5
+          }
+        },
+        "text_BJhKjd": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "heading_qxF7J6",
+        "heading_LYY6pU",
+        "text_cYTqf3",
+        "text_BJhKjd"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/videoss.png",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "apps_cX7JKL": {
@@ -160,61 +205,6 @@
         "width": "wrapper",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "section_hero_qrpC6i": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_qxF7J6": {
-          "type": "heading",
-          "settings": {
-            "title": "Real People,",
-            "text_size": 8
-          }
-        },
-        "heading_LYY6pU": {
-          "type": "heading",
-          "settings": {
-            "title": "Real Community",
-            "text_size": 8
-          }
-        },
-        "spacer_XTpBWb": {
-          "type": "spacer",
-          "settings": {
-            "spacer_padding": 40,
-            "show_line": false
-          }
-        },
-        "text_cYTqf3": {
-          "type": "text",
-          "settings": {
-            "richtext": "<p>Naturally active matcha compounds. Sustained energy. Calm focus. No crash.</p>",
-            "text_size": 5
-          }
-        }
-      },
-      "block_order": [
-        "heading_qxF7J6",
-        "heading_LYY6pU",
-        "spacer_XTpBWb",
-        "text_cYTqf3"
-      ],
-      "name": "Image banner",
-      "settings": {
-        "image": "shopify://shop_images/videoss.png",
-        "height": "use_screen_two_thirds",
-        "overlay_opacity": 15,
-        "overlay_color": "#000000",
-        "enable_overlay_text": false,
-        "preload_image": false,
-        "content_width": 2000,
-        "text_align": "align--bottom-left",
-        "text_color": "text--white",
-        "color_bg": "hero__content--transparent",
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "section_double_tabs_FqBNqg": {
@@ -411,8 +401,8 @@
   },
   "order": [
     "main",
-    "apps_cX7JKL",
     "section_hero_qrpC6i",
+    "apps_cX7JKL",
     "section_double_tabs_FqBNqg",
     "related",
     "section_faq_ewrh9V"
