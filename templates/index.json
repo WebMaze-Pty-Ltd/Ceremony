@@ -9,6 +9,85 @@
  */
 {
   "sections": {
+    "section_video_QG7LP7": {
+      "type": "section-video",
+      "blocks": {
+        "heading_F7cYHh": {
+          "type": "heading",
+          "settings": {
+            "title": "Taste signals intelligence.",
+            "text_size": 9
+          }
+        },
+        "heading_KTcHG8": {
+          "type": "heading",
+          "settings": {
+            "title": "Standards confirm it.",
+            "text_size": 9
+          }
+        },
+        "text_wexdpM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Naturally balanced caffeine and L-theanine.</p>",
+            "text_size": 5
+          }
+        },
+        "text_d4PDkm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Balanced energy. Calm focus. Stable output.</p>",
+            "text_size": 5
+          }
+        },
+        "button_PDyRrM": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop Now",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn--outline",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_F7cYHh",
+        "heading_KTcHG8",
+        "text_wexdpM",
+        "text_d4PDkm",
+        "button_PDyRrM"
+      ],
+      "custom_css": [
+        ".hero__btn--play {display: none;}"
+      ],
+      "name": "Video banner",
+      "settings": {
+        "height": "use_image",
+        "color_bg": "palette--light bg--neutral",
+        "video_bg": "shopify://files/videos/Ceremony_Matcha_ASMR_Film_V2.mov",
+        "object_position": "center-center",
+        "preload_image": false,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "hero": {
       "type": "section-hero",
       "blocks": {
@@ -60,6 +139,7 @@
         "banner-text",
         "banner-button"
       ],
+      "disabled": true,
       "custom_css": [
         "p,a {text-transform: none;}"
       ],
@@ -780,6 +860,7 @@
     }
   },
   "order": [
+    "section_video_QG7LP7",
     "hero",
     "section_richtext_LkTafc",
     "section_collection_HKMVii",

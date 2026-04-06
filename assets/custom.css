@@ -22,7 +22,8 @@
 }
 @font-face {
   font-family: "Helvetica Neue";
-  src: url("{{ 'HelveticaNeueMediumItalic.otf' | font_url }}") format("opentype");
+  src: url("{{ 'HelveticaNeueMediumItalic.otf' | font_url }}")
+    format("opentype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -57,6 +58,25 @@
   /* Accent Stack (Labels, secondary text) */
   --FONT-STACK-ACCENT: "Helvetica Neue", sans-serif;
   --FONT-WEIGHT-ACCENT: 300;
+
+  /* Custom Button Type Variables */
+  --btn-custom-padding-x: 2.8rem; /* 45px */
+  --btn-custom-padding-y: 0.625rem; /* 10px */
+  --btn-custom-font-size: 1.25rem; /* 20px */
+  --btn-custom-line-height: 2.75rem; /* 44px */
+  --btn-custom-radius: 1.25rem; /* 20px */
+  --btn-custom-letter-spacing: -5%;
+  --btn-custom-text-transform: none;
+
+  /* Custom Heading Type Variables */
+  --heading-custom-font-size: 2.5rem; /* 40px */
+  --heading-custom-line-height: 2.75rem; /* 44px */
+  --heading-custom-letter-spacing: -5%;
+
+  /* Custom Body Font Type Variables */
+  --body-custom-font-size: 1.25rem; /* 20px */
+  --body-custom-line-height: 1.8125rem; /* 29px */
+  --body-custom-letter-spacing: -5%;
 }
 
 /* 3. CUSTOM COMPONENT STYLES */
@@ -87,24 +107,45 @@
 
 /* Product Page */
 .product__block__price span {
-  font-family: 'Amiri', serif !important;
+  font-family: "Amiri", serif !important;
   letter-spacing: -5%;
 }
 
 .product__block__title .product__title {
-  font-family: 'Amriri', serif !important;
+  font-family: "Amriri", serif !important;
 }
 
 /* Button & FAQ Styles */
-.btn--outline, 
+.btn--outline,
 .section-faq .standard__kicker {
-  font-family: 'Amiri', serif;
-}
-
-.btn--outline {
-  font-size: 1rem !important;
+  font-family: "Amiri", serif;
+  font-size: var(--btn-custom-font-size) !important;
+  font-weight: 400;
+  line-height: var(--btn-custom-line-height);
+  letter-spacing: var(--btn-custom-letter-spacing);
+  padding: var(--btn-custom-padding-y) var(--btn-custom-padding-x);
+  border-radius: var(--btn-custom-radius);
+  text-transform: var(--btn-custom-text-transform);
 }
 
 .accordion__title {
   font-weight: var(--FONT-WEIGHT-BODY);
+}
+
+/* Video Hero Heading - Custom Style */
+.section-video .hero__title p {
+  font-family: "Amiri", serif;
+  font-size: var(--heading-custom-font-size);
+  font-weight: 400;
+  line-height: var(--heading-custom-line-height);
+  letter-spacing: var(--heading-custom-letter-spacing);
+}
+
+/* Video Hero Description - Custom Body Font Style */
+.section-video .hero__description p {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: var(--body-custom-font-size);
+  font-weight: 300;
+  line-height: var(--body-custom-line-height);
+  letter-spacing: var(--body-custom-letter-spacing);
 }
