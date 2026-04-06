@@ -56,6 +56,7 @@
         },
         "social_XmM9y7": {
           "type": "social",
+          "disabled": true,
           "settings": {
             "title": "Connect with us",
             "text_size": 8,

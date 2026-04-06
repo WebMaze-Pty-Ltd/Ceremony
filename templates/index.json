@@ -1001,8 +1001,7 @@
         "text_3F6ceR"
       ],
       "custom_css": [
-        ".section-faq {background-color: #c7bfab;}",
-        ".standard__kicker {text-transform: none;}"
+        ".section-faq {background-color: #c7bfab;}"
       ],
       "name": "Accordion group",
       "settings": {
