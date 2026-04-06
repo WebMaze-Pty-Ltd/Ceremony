@@ -81,79 +81,8 @@
         "text_align": "align--bottom-left",
         "text_color": "text--white",
         "overlay_opacity": 15,
-        "overlay_color": "#000",
-        "enable_overlay_text": false,
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "hero": {
-      "type": "section-hero",
-      "blocks": {
-        "banner-heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Taste signals intelligence.",
-            "text_size": 9
-          }
-        },
-        "heading_teatrm": {
-          "type": "heading",
-          "settings": {
-            "title": "Standards confirm it.",
-            "text_size": 9
-          }
-        },
-        "banner-text": {
-          "type": "text",
-          "settings": {
-            "richtext": "<p>Naturally balanced caffeine and L-theanine. Balanced energy. Calm focus. Stable output.</p>",
-            "text_size": 5
-          }
-        },
-        "banner-button": {
-          "type": "button",
-          "settings": {
-            "link_text_1": "Shop Now",
-            "link_1": "shopify://collections/all",
-            "button_size_1": "btn--long",
-            "button_style_1": "btn--outline",
-            "button_color_1": "btn--white",
-            "link_text_2": "",
-            "link_2": "shopify://pages/contact",
-            "button_size_2": "btn--long",
-            "button_style_2": "btn-text-thick-line",
-            "button_color_2": "btn--neutral",
-            "link_text_3": "",
-            "link_3": "",
-            "button_size_3": "btn--long",
-            "button_style_3": "btn-text-thick-line",
-            "button_color_3": "btn--white"
-          }
-        }
-      },
-      "block_order": [
-        "banner-heading",
-        "heading_teatrm",
-        "banner-text",
-        "banner-button"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "p,a {text-transform: none;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/herobanner.webp",
-        "height": "use_screen_two_thirds",
-        "overlay_opacity": 15,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
-        "preload_image": true,
-        "content_width": 1200,
-        "text_align": "align--bottom-left",
-        "text_color": "text--white",
-        "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
         "padding_top": 0,
         "padding_bottom": 0
@@ -162,20 +91,25 @@
     "section_richtext_LkTafc": {
       "type": "section-richtext",
       "blocks": {
-        "text_WBpGgV": {
-          "type": "text",
+        "kicker_4h6nCE": {
+          "type": "kicker",
           "settings": {
-            "text": "<p>Add Ceremony Matcha into your daily rituals</p>",
-            "text_size": 7,
-            "text_columns": 1
+            "kicker": "BASED ON CLINICAL EVIDENCE",
+            "enable_line": false,
+            "text_size": 2
+          }
+        },
+        "heading_FTNxGM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Matcha delivers a concentrated source of L-theanine paired with caffeine that has been shown in multiple studies to support sustained cognitive focus and calm alertness without the typical “crash” associated with coffee, thanks to the synergistic effect of these compounds when consumed together.",
+            "text_size": 9
           }
         }
       },
       "block_order": [
-        "text_WBpGgV"
-      ],
-      "custom_css": [
-        ".rte {font-family: Amiri;}"
+        "kicker_4h6nCE",
+        "heading_FTNxGM"
       ],
       "name": "Rich text",
       "settings": {
@@ -184,12 +118,13 @@
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
         "width": "wrapper",
-        "padding_top": 60,
+        "padding_top": 88,
         "padding_bottom": 0
       }
     },
     "section_collection_HKMVii": {
       "type": "section-collection",
+      "disabled": true,
       "name": "Product grid",
       "settings": {
         "title": "",
@@ -861,7 +796,6 @@
   },
   "order": [
     "section_video_QG7LP7",
-    "hero",
     "section_richtext_LkTafc",
     "section_collection_HKMVii",
     "section_richtext_WVfaLD",
