@@ -1,0 +1,131 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "section_richtext_VEjfyH": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_BDiFnz": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQ's",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_BDiFnz"
+      ],
+      "custom_css": [],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_faq_bwryVV": {
+      "type": "section-faq",
+      "blocks": {
+        "text_UXYxxb": {
+          "type": "text",
+          "settings": {
+            "title": "What is matcha?",
+            "content": "<p>Matcha is finely stone-ground green tea powder made from shade grown tea leaves. Unlike traditional tea, where leaves are steeped and discarded, matcha is whisked into water (or milk IN MODERN APPLICATIONS) and consumed whole. This means you receive the full spectrum of the leaf’s nutrients, antioxidants and natural energy.</p>"
+          }
+        },
+        "text_wz98FT": {
+          "type": "text",
+          "settings": {
+            "title": "How is matcha different from green tea?",
+            "content": "<p>Green tea is typically brewed by steeping tea leaves in hot water and then removing them. Matcha is the entire tea leaf, stone-ground into a fine powder and whisked into the liquid. Because of this, matcha delivers a more concentrated flavour, deeper colour and higher levels of antioxidants and beneficial compounds.</p>"
+          }
+        },
+        "text_eBAtD8": {
+          "type": "text",
+          "settings": {
+            "title": "Does matcha contain caffeine?",
+            "content": "<p>Yes. Matcha naturally contains caffeine, but it behaves differently to coffee. Thanks to an amino acid called L-theanine, the caffeine in matcha is released more slowly, offering a calmer, sustained focus without the sharp spike and crash often associated with coffee.</p>"
+          }
+        },
+        "text_FgfwLx": {
+          "type": "text",
+          "settings": {
+            "title": "What does good-quality matcha taste like?",
+            "content": "<p>High-quality matcha should taste smooth, fresh and vibrant. Expect notes of sweet grass, gentle umami, and a natural creaminess with very little bitterness. A bright green colour is also a good sign of freshness and quality.</p>"
+          }
+        },
+        "text_PCfk6c": {
+          "type": "text",
+          "settings": {
+            "title": "How should matcha be prepared or consumed?",
+            "content": "<p>Matcha is traditionally whisked with warm water using a bamboo whisk until smooth and lightly frothy. It can also be enjoyed with milk for a matcha latte, blended into smoothies, or used in cooking and baking. At Ceremony, we recommend enjoying matcha after eating rather than on an empty stomach.</p>"
+          }
+        },
+        "text_4eGpGd": {
+          "type": "text",
+          "settings": {
+            "title": "What is the Ceremony difference?",
+            "content": "<p>Ceremony Matcha is sourced directly from Japan and selected for both quality and flavour. We focus on high grade matcha that is smooth, vibrant and easy to enjoy daily. Beyond the product itself, Ceremony is about you, slowing down and creating small rituals — bringing calm focus and intention into everyday moments.<br/>Our founder, Mikayla McClean has been drinking Matcha since 2014, ready her story <a href=\"#\" title=\"#\">here</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_UXYxxb",
+        "text_wz98FT",
+        "text_eBAtD8",
+        "text_FgfwLx",
+        "text_PCfk6c",
+        "text_4eGpGd"
+      ],
+      "custom_css": [],
+      "name": "Accordion group",
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 7,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--black",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_richtext_VEjfyH",
+    "section_faq_bwryVV"
+  ]
+}

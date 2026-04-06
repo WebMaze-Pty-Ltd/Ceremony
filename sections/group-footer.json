@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "linklist-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "main-menu-copy",
+            "title": "",
+            "accordion_default": "accordion-is-open"
+          }
+        },
+        "linklist_NPjgzJ": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer-menu-2",
+            "title": "",
+            "accordion_default": "accordion-is-open"
+          }
+        },
+        "linklist_wW4zBN": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer-menu-2-copy",
+            "title": "",
+            "accordion_default": "accordion-is-open"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Frame_8.webp",
+            "wh_ratio": 2,
+            "newsletter_enable": true,
+            "recaptcha_enabled": false,
+            "kicker": "",
+            "heading": "",
+            "richtext": "<p>OUR NEWSLETTER<br/><br/>Sign up for product updates, expert advice, research and matcha recipes direct to your inbox</p>",
+            "text_size": 4,
+            "background_color": "#d9d5ca",
+            "text_color_value": "#000000"
+          }
+        },
+        "social_XmM9y7": {
+          "type": "social",
+          "settings": {
+            "title": "Connect with us",
+            "text_size": 8,
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "linklist-1",
+        "linklist_NPjgzJ",
+        "linklist_wW4zBN",
+        "newsletter",
+        "social_XmM9y7"
+      ],
+      "custom_css": [
+        ".footer__title {display: none;}"
+      ],
+      "settings": {
+        "menu_position": "left",
+        "footer_image": "shopify://shop_images/Ceremony..png",
+        "logo_max_limit": 200,
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "subfooter": {
+      "type": "subfooter",
+      "disabled": true,
+      "settings": {
+        "footer_secondary_linklist": "footer",
+        "footer_payment_enable": false,
+        "footer_social_enable": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "subfooter"
+  ]
+}

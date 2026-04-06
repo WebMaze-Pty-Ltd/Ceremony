@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay",
+  "sections": {
+    "cart": {
+      "type": "cart-drawer",
+      "settings": {
+        "cart_shipping_enable": false,
+        "cart_show_quantity": true,
+        "cart_notes_enable": false,
+        "show_free_shipping_message": false,
+        "message": "Spend ||amount|| more for free shipping",
+        "cart_custom_message_enable": false,
+        "cart_custom_message_text": "<p>Use code <strong>TENOFF</strong> at checkout for 10% off</p>",
+        "cart_color_bg": "palette--light bg--neutral",
+        "cart_show_additional_buttons": false
+      }
+    },
+    "popups": {
+      "type": "popups",
+      "blocks": {
+        "newsletter_DPzEUa": {
+          "type": "newsletter",
+          "disabled": true,
+          "settings": {
+            "title": "Join our community and recieve 10% off your first purchase",
+            "text": "<p>Sign up for product updates, expert advice, research and matcha recipes direct to your inbox</p>",
+            "success": "",
+            "text_color": "text--black",
+            "bg": "palette--light bg--neutral",
+            "position": "popup--center",
+            "trigger": "delayed",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_DPzEUa"
+      ],
+      "custom_css": [
+        ".popup__inner {background-color: #e4dac2;}"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "cart",
+    "popups"
+  ]
+}

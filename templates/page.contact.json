@@ -1,0 +1,69 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_RjU8T7": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_fhHPqg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_fhHPqg"
+      ],
+      "custom_css": [],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_liquid_6Qk37M": {
+      "type": "section-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"wsaio-form\" data-id=\"6ee90cbc-c569-473b-b40a-e9a18ca59e17\" data-shop=\"7e4b9c-2.myshopify.com\"></div><script>(function(d, s, id){var js,wjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src=\"https://wholesales.digitalcoo.com/forms/embed.js\";wjs.parentNode.insertBefore(js,wjs);}(document,'script','wsaio-customer-form-embed'));</script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_richtext_RjU8T7",
+    "section_liquid_6Qk37M"
+  ]
+}

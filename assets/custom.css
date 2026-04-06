@@ -1,0 +1,110 @@
+/* 1. FONT FACE DEFINITIONS */
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("{{ 'HelveticaNeueLight.otf' | font_url }}") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("{{ 'HelveticaNeueLightItalic.otf' | font_url }}") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("{{ 'HelveticaNeueMedium.otf' | font_url }}") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("{{ 'HelveticaNeueMediumItalic.otf' | font_url }}") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("{{ 'HelveticaNeueBold.otf' | font_url }}") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("{{ 'HelveticaNeueBoldItalic.otf' | font_url }}") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 2. THEME VARIABLE OVERRIDES */
+:root {
+  /* Body Stack */
+  --FONT-STACK-BODY: "Helvetica Neue", sans-serif;
+  --FONT-WEIGHT-BODY: 300;
+  --FONT-WEIGHT-BODY-BOLD: 700;
+
+  /* Heading Stack */
+  --FONT-STACK-HEADING: "Helvetica Neue", sans-serif;
+  --FONT-WEIGHT-HEADING: 500; /* Medium for headings */
+  --FONT-WEIGHT-HEADING-BOLD: 700;
+
+  /* Accent Stack (Labels, secondary text) */
+  --FONT-STACK-ACCENT: "Helvetica Neue", sans-serif;
+  --FONT-WEIGHT-ACCENT: 300;
+}
+
+/* 3. CUSTOM COMPONENT STYLES */
+
+/* Product Card */
+.product__grid__info a p {
+  font-size: 0.75rem;
+  font-weight: var(--FONT-WEIGHT-BODY);
+  text-transform: uppercase;
+}
+
+@media (max-width: 786px) {
+  .product__grid__info a p,
+  .product__grid__price {
+    text-align: start;
+    width: 100%;
+    justify-content: flex-start !important;
+  }
+}
+
+@media (min-width: 787px) {
+  .product__grid__info a {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+/* Product Page */
+.product__block__price span {
+  font-family: 'Amiri', serif !important;
+  letter-spacing: -5%;
+}
+
+.product__block__title .product__title {
+  font-family: 'Amriri', serif !important;
+}
+
+/* Button & FAQ Styles */
+.btn--outline, 
+.section-faq .standard__kicker {
+  font-family: 'Amiri', serif;
+}
+
+.btn--outline {
+  font-size: 1rem !important;
+}
+
+.accordion__title {
+  font-weight: var(--FONT-WEIGHT-BODY);
+}

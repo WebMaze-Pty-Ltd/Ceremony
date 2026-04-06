@@ -1,0 +1,201 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "section_double_aVxfdT": {
+      "type": "section-double",
+      "blocks": {
+        "text_3tdNQk": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "The art of tea is zen",
+            "text": "<p>Ceremony is my lived expereince, a Brand that is deeply resonant of who I am as a person. Gifting to others is a Love Language and it brings me so much joy to be able to share Ceremony in your daily rituals. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_9qjmmc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/matchaportrait.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_3tdNQk",
+        "image_9qjmmc"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_dYUWJV": {
+      "type": "section-double",
+      "blocks": {
+        "image_BimBJr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ownerphoto.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_wNXjwD": {
+          "type": "text",
+          "settings": {
+            "kicker": "FOUNDER",
+            "title": "Mikayla McClean",
+            "text": "<p>Ceremony is my lived experience, a Brand that is deeply resonant of who I am as a person. Gifting to others is a Love Language and it brings me so much joy to be able to share Ceremony in your daily rituals. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BimBJr",
+        "text_wNXjwD"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "icons": {
+      "type": "section-icons",
+      "blocks": {
+        "icons-0": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-legal",
+            "icon_color": "#afa17d",
+            "title": "JAS CERTIFIED ORGANIC",
+            "text": "<p>JAS (Japanese Agricultural Standard) certification is Japan’s highest standard for organic farming. It guarantees that the tea is grown and processed without synthetic pesticides, chemical fertilisers, or artificial additives. For Ceremony Matcha, it means purity, sustainability, and respect for Japanese tea traditions.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icons-1": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-earth",
+            "icon_color": "#afa17d",
+            "title": "FRESHNESS & QUALITY",
+            "text": "<p>The true magic of matcha lies in its freshness. Ceremony Matcha is stone-ground in small batches and sealed immediately to preserve its vibrant colour, delicate flavour, and powerful nutrients. The higher the quality, the richer the antioxidants, L-theanine, and calming benefits delivering energy that feels clean, balanced, and sustained.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icons-2": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-water",
+            "icon_color": "#afa17d",
+            "title": "PRIORITISING THE RITUAL",
+            "text": "<p>At Ceremony, we believe matcha is more than a drink, it’s a practice. Taking time to prepare it slowly, with care, invites presence into your day. It’s about quality over consumption, choosing fewer, more intentional moments that nourish both mind and body. In every whisk, every sip, we honour ritual, not rush.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icons-0",
+        "icons-1",
+        "icons-2"
+      ],
+      "settings": {
+        "title": "Our Difference",
+        "bg": "palette--light bg--accent",
+        "icons_size": 30,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_double_aVxfdT",
+    "section_double_dYUWJV",
+    "icons"
+  ]
+}

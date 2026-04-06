@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announce_text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Make an announcement</strong> | More info</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "announce_shipping": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "message": "Spend ||amount|| more for free shipping",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "announce_text",
+        "announce_shipping"
+      ],
+      "settings": {
+        "text_size": 3,
+        "layout": "slider",
+        "speed": 5,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "header_style": "split",
+        "logo": "shopify://shop_images/Ceremony_4x_70a282b4-3bf8-46ea-bb74-bcb2fa832cb3.png",
+        "logo_max_limit": 100,
+        "logo_padding": 25,
+        "logo_text_size": 5,
+        "main_menu_linklist": "main-menu-copy",
+        "mobile_menu_linklist": "",
+        "full_width": true,
+        "underline_current": false,
+        "enable_search": false,
+        "enable_account": false,
+        "use_icons": true,
+        "icons_type": "modern",
+        "cart_icon": "basket",
+        "header_sticky": "static",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_blog": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_text_color": "#ffffff",
+        "show_collection_images": true,
+        "collection_wh_ratio": 2.5
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}
