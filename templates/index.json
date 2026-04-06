@@ -463,14 +463,28 @@
         "heading_VKFk8G": {
           "type": "heading",
           "settings": {
-            "title": "Pure. Vibrant. Uncompromised. The Ceremony Standard",
+            "title": "Pure. Vibrant. Uncompromised.",
             "text_size": 8
+          }
+        },
+        "heading_BLcHX3": {
+          "type": "heading",
+          "settings": {
+            "title": "The Ceremony Standard",
+            "text_size": 10
           }
         },
         "text_MYxBxc": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Naturally active matcha compounds. Sustained energy. Calm focus. No crash.</p>",
+            "richtext": "<p>Naturally active matcha compounds.</p>",
+            "text_size": 5
+          }
+        },
+        "text_rPYYtG": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
             "text_size": 5
           }
         },
@@ -497,13 +511,15 @@
       },
       "block_order": [
         "heading_VKFk8G",
+        "heading_BLcHX3",
         "text_MYxBxc",
+        "text_rPYYtG",
         "button_XYnwKE"
       ],
       "name": "Image banner",
       "settings": {
         "image": "shopify://shop_images/matchascreenshot.webp",
-        "height": "use_screen_two_thirds",
+        "height": "use_image",
         "overlay_opacity": 15,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
@@ -530,7 +546,14 @@
         "text_EFpiBW": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Naturally active matcha compounds. Sustained energy. Calm focus. No crash.</p>",
+            "richtext": "<p>Naturally active matcha compounds.</p>",
+            "text_size": 5
+          }
+        },
+        "text_UEjFQ9": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
             "text_size": 5
           }
         },
@@ -558,12 +581,13 @@
       "block_order": [
         "heading_7z3WmC",
         "text_EFpiBW",
+        "text_UEjFQ9",
         "button_GgmV8x"
       ],
       "name": "Image banner",
       "settings": {
         "image": "shopify://shop_images/videoss.png",
-        "height": "use_screen_two_thirds",
+        "height": "use_image",
         "overlay_opacity": 15,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
@@ -590,7 +614,14 @@
         "text_B7jmDx": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Naturally active matcha compounds. Sustained energy. Calm focus. No crash.</p>",
+            "richtext": "<p>Matcha optimises that system, delivering calm,</p>",
+            "text_size": 5
+          }
+        },
+        "text_PYa4qb": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>sustained energy and focused clarity.</p>",
             "text_size": 5
           }
         },
@@ -618,12 +649,13 @@
       "block_order": [
         "heading_VCBaKR",
         "text_B7jmDx",
+        "text_PYa4qb",
         "button_CqnqaC"
       ],
       "name": "Image banner",
       "settings": {
         "image": "shopify://shop_images/GRADIENT_VIDEO.webp",
-        "height": "use_pixels_500",
+        "height": "use_image",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
