@@ -383,7 +383,78 @@
         "borders": false,
         "preload_image": false,
         "padding_top": 20,
-        "padding_bottom": 60
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_kjCjxx": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_7hTXNH": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify://shop_images/HL-LOGO-1_1.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_VRVaXq": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify://shop_images/taste.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_qg8Fx7": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify://shop_images/New-Logo-1-1400x295-removebg-preview_1.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_pKqCid": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify://shop_images/cropped-Hello_Lifestyle_Logo_Web_1.png",
+            "icon_color": "#aaaaaa",
+            "title": "",
+            "text": "",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_7hTXNH",
+        "icon_block_VRVaXq",
+        "icon_block_qg8Fx7",
+        "icon_block_pKqCid"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "title": "Featured in publications",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 120,
+        "icon_alignment": "icon--top",
+        "layout": "grid--slider",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 88,
+        "padding_bottom": 0
       }
     },
     "section_hero_AJ3xXx": {
@@ -864,6 +935,7 @@
     "section_richtext_WVfaLD",
     "apps_bPbpYA",
     "section_double_tabs_GhUyUQ",
+    "section_icons_kjCjxx",
     "section_hero_AJ3xXx",
     "section_hero_wK66xV",
     "section_hero_nXkxnG",
