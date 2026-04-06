@@ -766,7 +766,6 @@
         "logo_image_QEqyGt",
         "logo_image_zYN7LQ"
       ],
-      "disabled": true,
       "custom_css": [],
       "name": "Logo list",
       "settings": {
@@ -776,7 +775,7 @@
         "marquee_speed": 30,
         "width": "wrapper",
         "padding_top": 36,
-        "padding_bottom": 60
+        "padding_bottom": 0
       }
     },
     "section_logos_Kh4wVA": {
@@ -829,7 +828,6 @@
         "logo_image_3eAcU3",
         "logo_image_qmxNXf"
       ],
-      "disabled": true,
       "custom_css": [],
       "name": "Logo list",
       "settings": {
@@ -838,8 +836,46 @@
         "enable_marquee": false,
         "marquee_speed": 30,
         "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 88
+      }
+    },
+    "section_richtext_afng7D": {
+      "type": "section-richtext",
+      "blocks": {
+        "button_GWWzVQ": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "JOIN THIS LIST >",
+            "link_1": "shopify://pages/contact-us",
+            "button_size_1": "btn--small",
+            "button_style_1": "btn-text-thick-line",
+            "button_color_1": "btn--neutral",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--neutral",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--medium",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--neutral"
+          }
+        }
+      },
+      "block_order": [
+        "button_GWWzVQ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
         "padding_top": 36,
-        "padding_bottom": 60
+        "padding_bottom": 36
       }
     },
     "section_richtext_WC3zQX": {
@@ -1034,6 +1070,7 @@
     "section_image_qUdeKp",
     "section_logos_qqwVUM",
     "section_logos_Kh4wVA",
+    "section_richtext_afng7D",
     "section_richtext_WC3zQX",
     "section_hero_QzrmKJ",
     "section_faq_iPrpdz"
