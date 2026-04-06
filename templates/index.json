@@ -766,6 +766,7 @@
         "logo_image_QEqyGt",
         "logo_image_zYN7LQ"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Logo list",
       "settings": {
@@ -828,6 +829,7 @@
         "logo_image_3eAcU3",
         "logo_image_qmxNXf"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Logo list",
       "settings": {
@@ -884,6 +886,64 @@
         "width": "wrapper",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "section_hero_QzrmKJ": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_nHBNMw": {
+          "type": "heading",
+          "settings": {
+            "title": "Expert-led.",
+            "text_size": 8
+          }
+        },
+        "heading_wUcDxR": {
+          "type": "heading",
+          "settings": {
+            "title": "Ritual-approved.",
+            "text_size": 10
+          }
+        },
+        "text_Wi4zc3": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Naturally active matcha compounds.</p>",
+            "text_size": 5
+          }
+        },
+        "text_qXG9fE": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
+            "text_size": 5
+          }
+        }
+      },
+      "block_order": [
+        "heading_nHBNMw",
+        "heading_wUcDxR",
+        "text_Wi4zc3",
+        "text_qXG9fE"
+      ],
+      "custom_css": [
+        ".section--image {background-color: #c7bfac;}"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/matcha_transparent.png",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "rgba(0,0,0,0)",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-left",
+        "text_color": "text--black",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_faq_iPrpdz": {
@@ -976,6 +1036,7 @@
     "section_logos_qqwVUM",
     "section_logos_Kh4wVA",
     "section_richtext_WC3zQX",
+    "section_hero_QzrmKJ",
     "section_faq_iPrpdz"
   ]
 }
