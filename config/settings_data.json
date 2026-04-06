@@ -43,7 +43,7 @@
     "font_accent_size": 100,
     "layout_site_width": 1600,
     "button_radius": 20,
-    "parallax_enable": true,
+    "parallax_enable": false,
     "collection_text_alignment": "text-center",
     "product_grid_image": "crop",
     "quick_add_button_color": "stain-button-canvas",

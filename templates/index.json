@@ -139,6 +139,66 @@
         "padding_bottom": 60
       }
     },
+    "section_list_collections_xKmwTM": {
+      "type": "section-list-collections",
+      "blocks": {
+        "collection_gFqGzx": {
+          "type": "collection",
+          "settings": {
+            "collection": "matcha-products",
+            "image": "shopify://shop_images/Frame_3.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": true,
+            "bottom_text": "EXPLORE MATCHA RANGE",
+            "bottom_text_disabled": false,
+            "collection_url": "shopify://collections/matcha-products",
+            "text_color": "text--white"
+          }
+        },
+        "collection_ndLMMk": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "image": "shopify://shop_images/Frame_3_1.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "top_text": "",
+            "top_text_disabled": false,
+            "title": "",
+            "title_disabled": true,
+            "bottom_text": "EXPLORE MATCHA TOOLS",
+            "bottom_text_disabled": false,
+            "collection_url": "shopify://collections/accessories",
+            "text_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "collection_gFqGzx",
+        "collection_ndLMMk"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "Add Ceremony Matcha into your daily rituals",
+        "bg": "palette--light bg--neutral",
+        "carousel_enabled_on": "hidden",
+        "collection_limit": 2,
+        "wh_ratio": 1,
+        "grid_large": 2,
+        "grid_medium": 2,
+        "grid_mobile": 1,
+        "font_family": "heading",
+        "title_size": 9,
+        "accent_size": 3,
+        "width": "wrapper",
+        "padding_top": 68,
+        "padding_bottom": 0
+      }
+    },
     "section_richtext_WVfaLD": {
       "type": "section-richtext",
       "blocks": {
@@ -163,6 +223,7 @@
         "kicker_pTHPV9",
         "text_y9Yn6B"
       ],
+      "disabled": true,
       "custom_css": [
         ".rte {font-family: Amiri;}"
       ],
@@ -215,6 +276,7 @@
       "block_order": [
         "judge_me_reviews_cards_carousel_Wa6tbw"
       ],
+      "disabled": true,
       "settings": {
         "text_color": "text--neutral",
         "bg": "palette--light bg--neutral",
@@ -798,6 +860,7 @@
     "section_video_QG7LP7",
     "section_richtext_LkTafc",
     "section_collection_HKMVii",
+    "section_list_collections_xKmwTM",
     "section_richtext_WVfaLD",
     "apps_bPbpYA",
     "section_double_tabs_GhUyUQ",
