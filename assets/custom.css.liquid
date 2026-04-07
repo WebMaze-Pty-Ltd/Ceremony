@@ -1,43 +1,44 @@
 /* 1. FONT FACE DEFINITIONS */
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("{{ 'HelveticaNeueLight.otf' | font_url }}") format("opentype");
+  font-family: "Helvetica Neue Custom";
+  src: url("{{ 'HelveticaNeueLight.otf' | asset_url }}") format("opentype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("{{ 'HelveticaNeueLightItalic.otf' | font_url }}") format("opentype");
+  font-family: "Helvetica Neue Custom";
+  src: url("{{ 'HelveticaNeueLightItalic.otf' | asset_url }}")
+    format("opentype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("{{ 'HelveticaNeueMedium.otf' | font_url }}") format("opentype");
+  font-family: "Helvetica Neue Custom";
+  src: url("{{ 'HelveticaNeueMedium.otf' | asset_url }}") format("opentype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("{{ 'HelveticaNeueMediumItalic.otf' | font_url }}")
+  font-family: "Helvetica Neue Custom";
+  src: url("{{ 'HelveticaNeueMediumItalic.otf' | asset_url }}")
     format("opentype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("{{ 'HelveticaNeueBold.otf' | font_url }}") format("opentype");
+  font-family: "Helvetica Neue Custom";
+  src: url("{{ 'HelveticaNeueBold.otf' | asset_url }}") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Helvetica Neue";
-  src: url("{{ 'HelveticaNeueBoldItalic.otf' | font_url }}") format("opentype");
+  font-family: "Helvetica Neue Custom";
+  src: url("{{ 'HelveticaNeueBoldItalic.otf' | asset_url }}") format("opentype");
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -46,17 +47,17 @@
 /* 2. THEME VARIABLE OVERRIDES */
 :root {
   /* Body Stack */
-  --FONT-STACK-BODY: "Helvetica Neue", sans-serif;
+  --FONT-STACK-BODY: "Helvetica Neue Custom", sans-serif;
   --FONT-WEIGHT-BODY: 300;
   --FONT-WEIGHT-BODY-BOLD: 700;
 
   /* Heading Stack */
-  --FONT-STACK-HEADING: "Helvetica Neue", sans-serif;
+  --FONT-STACK-HEADING: "Helvetica Neue Custom", sans-serif;
   --FONT-WEIGHT-HEADING: 500; /* Medium for headings */
   --FONT-WEIGHT-HEADING-BOLD: 700;
 
   /* Accent Stack (Labels, secondary text) */
-  --FONT-STACK-ACCENT: "Helvetica Neue", sans-serif;
+  --FONT-STACK-ACCENT: "Helvetica Neue Custom", sans-serif;
   --FONT-WEIGHT-ACCENT: 300;
 
   /* Custom Button Type Variables */
@@ -128,7 +129,7 @@
   color: white !important;
   background-color: #25332a !important;
 
-  font-family: "Helvetica Neue", sans-serif !important;
+  font-family: "Helvetica Neue Custom", sans-serif !important;
   font-size: var(--FONT-STACK-BODY) !important;
   font-weight: 500 !important;
   line-height: var(--body-custom-line-height) !important;
@@ -169,7 +170,7 @@
 .product-section .product__block__description,
 .product-section .product__block__description a,
 .product-section .product__block__description span {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--font-small-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
@@ -203,7 +204,7 @@
 
 /* Video Hero Description - Custom Body Font Style */
 .section-video .hero__description p {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--body-custom-font-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
@@ -221,7 +222,7 @@
 
 /* Rich Text Kicker - Custom Kicker Font Style */
 .text__standard .standard__kicker p {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--font-small-size);
   font-weight: 300;
   letter-spacing: var(--kicker-custom-letter-spacing);
@@ -233,7 +234,7 @@
 
 /* Rich Text Body - Custom Body Font Style */
 .text__standard .rte p {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--body-custom-font-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
@@ -242,7 +243,7 @@
 
 /* Rich Text CTA - Custom Body Font Style */
 .text__standard .standard__cta {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--font-small-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
@@ -285,15 +286,15 @@
 
 .brick__section .brick-tabs__panel-kicker {
   color: #000000;
-  font-family: "Helvetica Neue", sans-serif;
-  font-size: 0.675rem !important;
+  font-family: "Helvetica Neue Custom", sans-serif;
+  font-size: 0.75rem !important;
   font-weight: 300;
   line-height: var(--body-custom-line-height);
   letter-spacing: var(--body-custom-letter-spacing);
 }
 
 .brick__section .brick-tabs__panel-content {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--font-small-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
@@ -346,7 +347,7 @@
 }
 
 .section--image .hero__description p {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--body-custom-font-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
@@ -374,7 +375,7 @@
 }
 
 .section-faq .accordion__title {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--body-custom-font-size);
   font-weight: 300;
   line-height: var(--body-custom-line-height);
@@ -409,7 +410,7 @@
 }
 
 .section-pair-hotspots-accordion p {
-  font-family: "Helvetica Neue", sans-serif !important;
+  font-family: "Helvetica Neue Custom", sans-serif !important;
   font-size: var(--font-small-size) !important;
   font-weight: 300 !important;
   line-height: calc(var(--body-custom-line-height) * 0.75) !important;
@@ -430,7 +431,7 @@
 }
 
 .section-double-image-text .rte p {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue Custom", sans-serif;
   font-size: var(--font-small-size);
   font-weight: 300;
   line-height: calc(var(--body-custom-line-height) * 0.75);
