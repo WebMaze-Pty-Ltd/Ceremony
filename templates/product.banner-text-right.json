@@ -12,15 +12,6 @@
     "main": {
       "type": "product",
       "blocks": {
-        "spacer_fGNzmR": {
-          "type": "spacer",
-          "settings": {
-            "show_line": false,
-            "target_device": "hidden-mobile",
-            "padding_top": 30,
-            "padding_bottom": 10
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -31,7 +22,7 @@
             "padding_bottom": 20
           }
         },
-        "description_GjNBiG": {
+        "description": {
           "type": "description",
           "settings": {
             "style": "none",
@@ -54,7 +45,7 @@
             "title_5": "",
             "icon_name_5": "",
             "raw_content_5": "",
-            "padding_bottom": 0
+            "padding_bottom": 20
           }
         },
         "price": {
@@ -81,25 +72,24 @@
             "padding_bottom": 20
           }
         },
-        "fbp_fast_bundle_all_bundles_Nin3at": {
+        "fbp_fast_bundle_all_bundles_xwcx39": {
           "type": "shopify://apps/fbp-fast-bundle/blocks/all_bundles/9e87fbe2-9041-4c23-acf5-322413994cef",
           "settings": {}
         }
       },
       "block_order": [
-        "spacer_fGNzmR",
         "title",
-        "description_GjNBiG",
+        "description",
         "price",
         "variants",
         "buttons",
-        "fbp_fast_bundle_all_bundles_Nin3at"
+        "fbp_fast_bundle_all_bundles_xwcx39"
       ],
       "custom_css": [
         ".btn--outline {background-color: #25332a; color: white; border-radius: 0px;}"
       ],
       "settings": {
-        "layout": "thumbnails-left@slides",
+        "layout": "none@mosaic",
         "image_width": "half",
         "image_spacing": 10,
         "align": "left",
@@ -116,10 +106,10 @@
         "padding_bottom": 36
       }
     },
-    "1774775307296b156c": {
+    "apps_cX7JKL": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_cards_carousel_RrE9WP": {
+        "judge_me_reviews_cards_carousel_jgVbgD": {
           "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "show_sample_reviews": false,
@@ -134,7 +124,7 @@
             "text_size": "medium",
             "image_ratio": "1",
             "reviews_shown": 3,
-            "show_reviewer_name": true,
+            "show_reviewer_name": false,
             "show_product_name": false,
             "hide_arrows_mobile": false,
             "arrows_position": "sides",
@@ -152,7 +142,7 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_cards_carousel_RrE9WP"
+        "judge_me_reviews_cards_carousel_jgVbgD"
       ],
       "settings": {
         "text_color": "text--neutral",
@@ -162,126 +152,134 @@
         "padding_bottom": 36
       }
     },
-    "section_hero_iQrCPz": {
+    "section_hero_znQk96": {
       "type": "section-hero",
       "blocks": {
-        "heading_TiPwAf": {
+        "heading_EUTWqY": {
           "type": "heading",
           "settings": {
-            "title": "Hand carved bamboo whisk",
+            "title": "{{ product.metafields.custom.pdp_banner_text_image.value.heading.value }}",
             "text_size": 8
           }
         },
-        "text_dL3gDW": {
+        "text_FbjTmG": {
           "type": "text",
           "settings": {
-            "richtext": "<p>100 prong traditional zhen whisk<br/>A Hand-carved bamboo whisk. Crafted from a single piece of natural bamboo, each chasen is delicately shaped to honour the ritual of matcha preparation</p>",
-            "text_size": 4
+            "richtext": "<p>{{ product.metafields.custom.pdp_banner_text_image.value.text_line_1.value }}</p>",
+            "text_size": 5
+          }
+        },
+        "text_WBWxPf": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>{{ product.metafields.custom.pdp_banner_text_image.value.text_line_2.value }}</p>",
+            "text_size": 5
           }
         }
       },
       "block_order": [
-        "heading_TiPwAf",
-        "text_dL3gDW"
-      ],
-      "custom_css": [
-        "@media (max-width: 768px) {picture {transform: translateY(-10%); }}"
+        "heading_EUTWqY",
+        "text_FbjTmG",
+        "text_WBWxPf"
       ],
       "name": "Image banner",
       "settings": {
-        "image": "shopify://shop_images/whiskbanner.webp",
-        "mobile_image": "shopify://shop_images/CeremonyChasen.jpg",
-        "height": "use_screen_two_thirds",
-        "overlay_opacity": 0,
+        "image": "{{ product.metafields.custom.pdp_banner_text_image.value.image.value }}",
+        "height": "use_image",
+        "overlay_opacity": 15,
         "overlay_color": "#000000",
         "enable_overlay_text": false,
         "preload_image": false,
-        "content_width": 500,
+        "content_width": 2000,
         "text_align": "align--bottom-right",
-        "text_color": "text--black",
+        "text_color": "text--white",
         "color_bg": "hero__content--transparent",
         "width": "wrapper--none",
         "padding_top": 0,
         "padding_bottom": 0
       }
     },
-    "section_double_tabs_8eaDKW": {
+    "section_double_tabs_T9EK3m": {
       "type": "section-double-tabs",
       "blocks": {
-        "tab_GJY7Wx": {
+        "tab_6hCdPm": {
           "type": "tab",
           "settings": {
-            "title": "NATASHA SIDERIS",
+            "title": "Natasha Sideris",
             "kicker": "CEO TASHAS GROUP",
             "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual - not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.”</p>"
           }
         },
-        "tab_qFVWwy": {
+        "tab_KdFDXB": {
           "type": "tab",
           "settings": {
-            "title": "RYAN COLE",
-            "kicker": "Testing Role",
-            "content": "<p>More lorem ipsum.</p>"
+            "title": "Ryan Cole",
+            "kicker": "HEAD CHEF AT SALSIFY",
+            "content": "<p>Ceremony resonates with me because ...</p>"
           }
         },
-        "tab_gXzU9z": {
+        "tab_EAGQYc": {
           "type": "tab",
           "settings": {
-            "title": "BRAAM BEYERS",
-            "kicker": "",
-            "content": "<p>TESTING</p>"
+            "title": "Braam Beyers",
+            "kicker": "Previously: Beau Constantia, Tintswalo Atlantic, Benu ❀❀❀ , Eleven Madison Park ❀❀❀ , ASKA ❀❀ , Institut Paul Bocuse graduate",
+            "content": "<p>For me, food and beverage come down to three key elements: Sourcing the best product, delivering exceptional service and presenting it in an elegant, considered way. Ceremony Matcha embodies all three. There is a clear dedication to understanding the origin of matcha, respecting its preparation, and presenting it with a refined, modern sensibility.</p><p>Beyond enjoying their beverages, I consistently incorporate Ceremony Matcha into my dessert work, from whipped cheesecake and matcha ganache to filled choux — because of its purity, balance and reliability as an ingredient.  Ceremony Matcha is, quite simply, my standard.  </p>"
           }
         },
-        "tab_fWz4zN": {
+        "tab_xBEnPk": {
           "type": "tab",
           "settings": {
             "title": "Kira Jacobs",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Michelin-trained chef, Ceremony Menu development",
+            "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.</p>"
           }
         },
-        "tab_gjBV98": {
+        "tab_Xfqe6e": {
           "type": "tab",
           "settings": {
-            "title": "CHIARA TURELLI",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "title": "Chiara Turelli",
+            "kicker": "Co-Owner of Lello’s",
+            "content": "<p>I connected with Mikayla through our shared loved of quality. I admire the way she lives through her matcha daily. I drink Ceremony matcha with no milk, no sugar. The flavour profile of Ceremony is sacred for me as its flavour is grounded and full.</p>"
           }
         },
-        "tab_Rza3b4": {
+        "tab_q8bNET": {
           "type": "tab",
           "settings": {
-            "title": "YAEL PINER",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "title": "Yael Lapiner",
+            "kicker": "Culinary professional, board certified nutritional coach, consultant in food research & development, trend forecasting & strategist.",
+            "content": "<p>I’ve always been selective about matcha. From the perspective of a chef it has to tick three boxes. Origin, integrity & flavour. Ceremony ticks all three. Ceremony understands that matcha is more than a trend.</p><p>Ceremony deeply respects the roots of the ritual, the agricultural craftsmanship from leaf to tea & has gone straight to the source for us all to participate in this ancient, sacred ritual. This level of attention & devotion to quality reflects a seriousness that I look for as a quality control freak when procuring anything for myself or my clients.</p>"
           }
         },
-        "tab_Pmcj83": {
+        "tab_pXMeUW": {
           "type": "tab",
           "settings": {
             "title": "Stephanie Anastasopoulos",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Owner and Director - Arthur’s Mini Super",
+            "content": "<p>Ceremony’s triple matcha with full cream milk has become a treasured ritual for me. I can’t stay away. I don’t even drink coffee anymore which is sad because I have a coffee shop. I’m also a big fan of their togarashi cube (cheesy, flaky, buttery scone with a kick); the black sesame banana bread and the earl grey iced tea with lavender honey - yum!</p>"
           }
         },
-        "tab_i6nErJ": {
+        "tab_nRcYr4": {
           "type": "tab",
           "settings": {
             "title": "David Schneider",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Owner and chef - chefs warehouse",
+            "content": "<p>Ceremony’s triple matcha with full cream milk has become a treasured ritual for me. I can’t stay away. I don’t even drink coffee anymore which is sad because I have a coffee shop. I’m also a big fan of their togarashi cube (cheesy, flaky, buttery scone with a kick); the black sesame banana bread and the earl grey iced tea with lavender honey - yum!</p>"
           }
         }
       },
       "block_order": [
-        "tab_GJY7Wx",
-        "tab_qFVWwy",
-        "tab_gXzU9z",
-        "tab_fWz4zN",
-        "tab_gjBV98",
-        "tab_Rza3b4",
-        "tab_Pmcj83",
-        "tab_i6nErJ"
+        "tab_6hCdPm",
+        "tab_KdFDXB",
+        "tab_EAGQYc",
+        "tab_xBEnPk",
+        "tab_Xfqe6e",
+        "tab_q8bNET",
+        "tab_pXMeUW",
+        "tab_nRcYr4"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".standard__heading {text-transform: none;}"
       ],
       "name": "Image with tabs",
       "settings": {
@@ -299,8 +297,8 @@
         "brick_gutter": 0,
         "borders": false,
         "preload_image": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "related": {
@@ -324,45 +322,45 @@
         "padding_bottom": 36
       }
     },
-    "section_faq_9jk4dk": {
+    "section_faq_ewrh9V": {
       "type": "section-faq",
       "blocks": {
-        "text_mKiHwr": {
+        "text_KEjzyc": {
           "type": "text",
           "settings": {
             "title": "What is matcha?",
             "content": "<p>Matcha is finely stone-ground green tea powder made from shade grown tea leaves. Unlike traditional tea, where leaves are steeped and discarded, matcha is whisked into water (or milk IN MODERN APPLICATIONS) and consumed whole. This means you receive the full spectrum of the leaf’s nutrients, antioxidants and natural energy.</p>"
           }
         },
-        "text_qaXaLH": {
+        "text_YQaY86": {
           "type": "text",
           "settings": {
             "title": "How is matcha different from green tea?",
             "content": "<p>Green tea is typically brewed by steeping tea leaves in hot water and then removing them. Matcha is the entire tea leaf, stone-ground into a fine powder and whisked into the liquid. Because of this, matcha delivers a more concentrated flavour, deeper colour and higher levels of antioxidants and beneficial compounds.</p>"
           }
         },
-        "text_n68PUY": {
+        "text_4bpVcq": {
           "type": "text",
           "settings": {
             "title": "Does matcha contain caffeine?",
             "content": "<p>Yes. Matcha naturally contains caffeine, but it behaves differently to coffee. Thanks to an amino acid called L-theanine, the caffeine in matcha is released more slowly, offering a calmer, sustained focus without the sharp spike and crash often associated with coffee.</p>"
           }
         },
-        "text_8EMWb8": {
+        "text_Ppq7jJ": {
           "type": "text",
           "settings": {
             "title": "What does good-quality matcha taste like?",
             "content": "<p>High-quality matcha should taste smooth, fresh and vibrant. Expect notes of sweet grass, gentle umami, and a natural creaminess with very little bitterness. A bright green colour is also a good sign of freshness and quality.</p>"
           }
         },
-        "text_qkf6Tk": {
+        "text_LrGQmm": {
           "type": "text",
           "settings": {
             "title": "How should matcha be prepared or consumed?",
             "content": "<p>Matcha is traditionally whisked with warm water using a bamboo whisk until smooth and lightly frothy. It can also be enjoyed with milk for a matcha latte, blended into smoothies, or used in cooking and baking. At Ceremony, we recommend enjoying matcha after eating rather than on an empty stomach.</p>"
           }
         },
-        "text_UqxJgY": {
+        "text_e3Q4gq": {
           "type": "text",
           "settings": {
             "title": "What is the Ceremony difference?",
@@ -371,13 +369,14 @@
         }
       },
       "block_order": [
-        "text_mKiHwr",
-        "text_qaXaLH",
-        "text_n68PUY",
-        "text_8EMWb8",
-        "text_qkf6Tk",
-        "text_UqxJgY"
+        "text_KEjzyc",
+        "text_YQaY86",
+        "text_4bpVcq",
+        "text_Ppq7jJ",
+        "text_LrGQmm",
+        "text_e3Q4gq"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-faq {background-color: #c7bfab;}",
         ".standard__kicker {text-transform: none;}"
@@ -386,7 +385,7 @@
       "settings": {
         "title": "Frequently Asked Questions",
         "title_align": "text-left",
-        "title_size": 7,
+        "title_size": 8,
         "heading_size": 5,
         "text_size": 5,
         "text_color": "text--black",
@@ -399,10 +398,10 @@
   },
   "order": [
     "main",
-    "1774775307296b156c",
-    "section_hero_iQrCPz",
-    "section_double_tabs_8eaDKW",
+    "apps_cX7JKL",
+    "section_hero_znQk96",
+    "section_double_tabs_T9EK3m",
     "related",
-    "section_faq_9jk4dk"
+    "section_faq_ewrh9V"
   ]
 }

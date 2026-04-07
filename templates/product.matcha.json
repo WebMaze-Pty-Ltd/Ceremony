@@ -116,35 +116,35 @@
         "padding_bottom": 36
       }
     },
-    "section_hero_BQVPP4": {
+    "section_hero_AgVixg": {
       "type": "section-hero",
       "blocks": {
-        "heading_hcX8qn": {
+        "heading_eqgK4P": {
           "type": "heading",
           "settings": {
-            "title": "Real People,",
+            "title": "Community Led ",
             "text_size": 8
           }
         },
-        "heading_tCpxHf": {
-          "type": "heading",
-          "settings": {
-            "title": "Real Community",
-            "text_size": 8
-          }
-        },
-        "text_djVL8Q": {
+        "text_tiTPnA": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Naturally active matcha compounds. Sustained energy. Calm focus. No crash.</p>",
+            "richtext": "<p>Naturally active matcha compounds.</p>",
+            "text_size": 5
+          }
+        },
+        "text_8CwHDE": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
             "text_size": 5
           }
         }
       },
       "block_order": [
-        "heading_hcX8qn",
-        "heading_tCpxHf",
-        "text_djVL8Q"
+        "heading_eqgK4P",
+        "text_tiTPnA",
+        "text_8CwHDE"
       ],
       "name": "Image banner",
       "settings": {
@@ -209,250 +209,86 @@
         "padding_bottom": 36
       }
     },
-    "section_pair_hotspots_accordion_iEVahc": {
-      "type": "section-pair-hotspots-accordion",
-      "blocks": {
-        "hotspots": {
-          "type": "_pair-hotspots",
-          "static": true,
-          "settings": {},
-          "blocks": {}
-        },
-        "accordion": {
-          "type": "_pair-accordion",
-          "static": true,
-          "settings": {
-            "text_color": "text--neutral",
-            "bg_color": "",
-            "font_family": "accent",
-            "font_weight": "normal",
-            "text_size": 4
-          },
-          "blocks": {
-            "pair_accordion_item_CKyMm6": {
-              "type": "_pair-accordion-item",
-              "settings": {
-                "title": "ingredients",
-                "gap": "lg"
-              },
-              "blocks": {
-                "theme_text_q397e9": {
-                  "type": "theme-text",
-                  "settings": {
-                    "text": "Crafted with precision and attention to detail, we ensure excellence. Designed to meet the highest standards, ensuring an exceptional experience every time.",
-                    "font_family": "body",
-                    "text_size": 5,
-                    "max_width": 550
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "theme_text_q397e9"
-              ]
-            },
-            "pair_accordion_item_te6wYy": {
-              "type": "_pair-accordion-item",
-              "settings": {
-                "title": "Nutrition",
-                "gap": "lg"
-              },
-              "blocks": {
-                "theme_text_UKhiXz": {
-                  "type": "theme-text",
-                  "name": "Text",
-                  "settings": {
-                    "text": "Per 3g Serving of Ceremony Matcha",
-                    "font_family": "body",
-                    "text_size": 5,
-                    "max_width": 550
-                  },
-                  "blocks": {}
-                },
-                "theme_text_myRXqr": {
-                  "type": "theme-text",
-                  "name": "Text",
-                  "settings": {
-                    "text": "NOTE: NOT ALL MATCHAS ARE CREATED EQUALLY. THESE NUMBERS ARE BASED PURELY ON CEREMONY MATCHA DOING INDEPENDANT RESEARCH",
-                    "font_family": "body",
-                    "text_size": 2,
-                    "max_width": 550
-                  },
-                  "blocks": {}
-                },
-                "theme_text_richtext_PTgX7m": {
-                  "type": "theme-text-richtext",
-                  "name": "Text: Rich text",
-                  "settings": {
-                    "text": "<p>Energy: ~10–12 kcal<br/>Protein: ~0.9 g<br/>Fat: ~0.2 g<br/>Carbohydrates: ~1.4 g<br/>Sodium: ~0 mg<br/>Caffeine: ~60–75 mg<br/>L-Theanine: ~20–35 mg<br/>Chlorophyll: ~15–25 mg<br/>EGCG (Epigallocatechin gallate): ~90–105 mg</p>",
-                    "font_family": "body",
-                    "text_size": 5,
-                    "max_width": 550
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "theme_text_UKhiXz",
-                "theme_text_myRXqr",
-                "theme_text_richtext_PTgX7m"
-              ]
-            },
-            "pair_accordion_item_CBMWTa": {
-              "type": "_pair-accordion-item",
-              "settings": {
-                "title": "Certification",
-                "gap": "lg"
-              },
-              "blocks": {
-                "theme_text_m4UVKL": {
-                  "type": "theme-text",
-                  "settings": {
-                    "text": "<strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-                    "font_family": "body",
-                    "text_size": 5,
-                    "max_width": 550
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "theme_text_m4UVKL"
-              ]
-            },
-            "title": {
-              "type": "_pair-title",
-              "disabled": true,
-              "static": true,
-              "settings": {
-                "alignment": "start",
-                "gap": "md"
-              },
-              "blocks": {
-                "theme_kicker_QixWDK": {
-                  "type": "theme-kicker",
-                  "settings": {
-                    "kicker": "Key Features",
-                    "enable_line": true,
-                    "text_size": 4
-                  },
-                  "blocks": {}
-                },
-                "theme_spacer_kh6axi": {
-                  "type": "theme-spacer",
-                  "settings": {
-                    "spacer_padding": 0,
-                    "line_stroke": 0,
-                    "line_color": "#000000",
-                    "line_width": "full"
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "theme_kicker_QixWDK",
-                "theme_spacer_kh6axi"
-              ]
-            }
-          },
-          "block_order": [
-            "pair_accordion_item_CKyMm6",
-            "pair_accordion_item_te6wYy",
-            "pair_accordion_item_CBMWTa"
-          ]
-        }
-      },
-      "settings": {
-        "image": "shopify://shop_images/Matcha.jpg",
-        "image_mobile": "shopify://shop_images/matchahotspots.webp",
-        "order": "hotspots-first",
-        "duration": 15,
-        "dot_color": "palette--light bg--neutral",
-        "brick_gutter": 0,
-        "borders": false,
-        "bg_color": "",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "section_double_tabs_8eaDKW": {
+    "section_double_tabs_cW9Np3": {
       "type": "section-double-tabs",
       "blocks": {
-        "tab_GJY7Wx": {
+        "tab_EaUQkb": {
           "type": "tab",
           "settings": {
-            "title": "NATASHA SIDERIS",
+            "title": "Natasha Sideris",
             "kicker": "CEO TASHAS GROUP",
             "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual - not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.”</p>"
           }
         },
-        "tab_qFVWwy": {
+        "tab_cgNa63": {
           "type": "tab",
           "settings": {
-            "title": "RYAN COLE",
-            "kicker": "Testing Role",
-            "content": "<p>More lorem ipsum.</p>"
+            "title": "Ryan Cole",
+            "kicker": "HEAD CHEF AT SALSIFY",
+            "content": "<p>Ceremony resonates with me because ...</p>"
           }
         },
-        "tab_gXzU9z": {
+        "tab_yVdAqg": {
           "type": "tab",
           "settings": {
-            "title": "BRAAM BEYERS",
-            "kicker": "",
-            "content": "<p>TESTING</p>"
+            "title": "Braam Beyers",
+            "kicker": "Previously: Beau Constantia, Tintswalo Atlantic, Benu ❀❀❀ , Eleven Madison Park ❀❀❀ , ASKA ❀❀ , Institut Paul Bocuse graduate",
+            "content": "<p>For me, food and beverage come down to three key elements: Sourcing the best product, delivering exceptional service and presenting it in an elegant, considered way. Ceremony Matcha embodies all three. There is a clear dedication to understanding the origin of matcha, respecting its preparation, and presenting it with a refined, modern sensibility.</p><p>Beyond enjoying their beverages, I consistently incorporate Ceremony Matcha into my dessert work, from whipped cheesecake and matcha ganache to filled choux — because of its purity, balance and reliability as an ingredient.  Ceremony Matcha is, quite simply, my standard.  </p>"
           }
         },
-        "tab_fWz4zN": {
+        "tab_TAe7KY": {
           "type": "tab",
           "settings": {
             "title": "Kira Jacobs",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Michelin-trained chef, Ceremony Menu development",
+            "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.</p>"
           }
         },
-        "tab_gjBV98": {
+        "tab_xrTT8R": {
           "type": "tab",
           "settings": {
-            "title": "CHIARA TURELLI",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "title": "Chiara Turelli",
+            "kicker": "Co-Owner of Lello’s",
+            "content": "<p>I connected with Mikayla through our shared loved of quality. I admire the way she lives through her matcha daily. I drink Ceremony matcha with no milk, no sugar. The flavour profile of Ceremony is sacred for me as its flavour is grounded and full.</p>"
           }
         },
-        "tab_Rza3b4": {
+        "tab_egrpta": {
           "type": "tab",
           "settings": {
-            "title": "YAEL PINER",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "title": "Yael Lapiner",
+            "kicker": "Culinary professional, board certified nutritional coach, consultant in food research & development, trend forecasting & strategist.",
+            "content": "<p>I’ve always been selective about matcha. From the perspective of a chef it has to tick three boxes. Origin, integrity & flavour. Ceremony ticks all three. Ceremony understands that matcha is more than a trend.</p><p>Ceremony deeply respects the roots of the ritual, the agricultural craftsmanship from leaf to tea & has gone straight to the source for us all to participate in this ancient, sacred ritual. This level of attention & devotion to quality reflects a seriousness that I look for as a quality control freak when procuring anything for myself or my clients.</p>"
           }
         },
-        "tab_Pmcj83": {
+        "tab_QADAH7": {
           "type": "tab",
           "settings": {
             "title": "Stephanie Anastasopoulos",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Owner and Director - Arthur’s Mini Super",
+            "content": "<p>Ceremony’s triple matcha with full cream milk has become a treasured ritual for me. I can’t stay away. I don’t even drink coffee anymore which is sad because I have a coffee shop. I’m also a big fan of their togarashi cube (cheesy, flaky, buttery scone with a kick); the black sesame banana bread and the earl grey iced tea with lavender honey - yum!</p>"
           }
         },
-        "tab_i6nErJ": {
+        "tab_RaQtVD": {
           "type": "tab",
           "settings": {
             "title": "David Schneider",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "kicker": "Owner and chef - chefs warehouse",
+            "content": "<p>Ceremony’s triple matcha with full cream milk has become a treasured ritual for me. I can’t stay away. I don’t even drink coffee anymore which is sad because I have a coffee shop. I’m also a big fan of their togarashi cube (cheesy, flaky, buttery scone with a kick); the black sesame banana bread and the earl grey iced tea with lavender honey - yum!</p>"
           }
         }
       },
       "block_order": [
-        "tab_GJY7Wx",
-        "tab_qFVWwy",
-        "tab_gXzU9z",
-        "tab_fWz4zN",
-        "tab_gjBV98",
-        "tab_Rza3b4",
-        "tab_Pmcj83",
-        "tab_i6nErJ"
+        "tab_EaUQkb",
+        "tab_cgNa63",
+        "tab_yVdAqg",
+        "tab_TAe7KY",
+        "tab_xrTT8R",
+        "tab_egrpta",
+        "tab_QADAH7",
+        "tab_RaQtVD"
+      ],
+      "custom_css": [
+        ".standard__heading {text-transform: none;}"
       ],
       "name": "Image with tabs",
       "settings": {
@@ -470,8 +306,8 @@
         "brick_gutter": 0,
         "borders": false,
         "preload_image": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "related": {
@@ -570,10 +406,9 @@
   },
   "order": [
     "main",
-    "section_hero_BQVPP4",
+    "section_hero_AgVixg",
     "1774775307296b156c",
-    "section_pair_hotspots_accordion_iEVahc",
-    "section_double_tabs_8eaDKW",
+    "section_double_tabs_cW9Np3",
     "related",
     "section_faq_9jk4dk"
   ]

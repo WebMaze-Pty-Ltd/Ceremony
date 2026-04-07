@@ -106,61 +106,6 @@
         "padding_bottom": 36
       }
     },
-    "section_hero_qrpC6i": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_qxF7J6": {
-          "type": "heading",
-          "settings": {
-            "title": "Real People,",
-            "text_size": 8
-          }
-        },
-        "heading_LYY6pU": {
-          "type": "heading",
-          "settings": {
-            "title": "Real Community",
-            "text_size": 8
-          }
-        },
-        "text_cYTqf3": {
-          "type": "text",
-          "settings": {
-            "richtext": "<p>Naturally active matcha compounds.</p>",
-            "text_size": 5
-          }
-        },
-        "text_BJhKjd": {
-          "type": "text",
-          "settings": {
-            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
-            "text_size": 5
-          }
-        }
-      },
-      "block_order": [
-        "heading_qxF7J6",
-        "heading_LYY6pU",
-        "text_cYTqf3",
-        "text_BJhKjd"
-      ],
-      "name": "Image banner",
-      "settings": {
-        "image": "shopify://shop_images/videoss.png",
-        "height": "use_image",
-        "overlay_opacity": 15,
-        "overlay_color": "#000000",
-        "enable_overlay_text": false,
-        "preload_image": false,
-        "content_width": 2000,
-        "text_align": "align--middle-left",
-        "text_color": "text--white",
-        "color_bg": "hero__content--transparent",
-        "width": "wrapper--none",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "apps_cX7JKL": {
       "type": "apps",
       "blocks": {
@@ -207,83 +152,135 @@
         "padding_bottom": 36
       }
     },
-    "section_double_tabs_FqBNqg": {
-      "type": "section-double-tabs",
+    "section_hero_znQk96": {
+      "type": "section-hero",
       "blocks": {
-        "tab_HCYkV9": {
-          "type": "tab",
+        "heading_EUTWqY": {
+          "type": "heading",
           "settings": {
-            "title": "NATASHA SIDERIS",
-            "kicker": "CEO TASHAS GROUP",
-            "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual - not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.”</p>"
+            "title": "Community Led ",
+            "text_size": 8
           }
         },
-        "tab_ULFCFK": {
-          "type": "tab",
+        "text_FbjTmG": {
+          "type": "text",
           "settings": {
-            "title": "RYAN COLE",
-            "kicker": "Testing Role",
-            "content": "<p>More lorem ipsum.</p>"
+            "richtext": "<p>Naturally active matcha compounds.</p>",
+            "text_size": 5
           }
         },
-        "tab_yDXGmr": {
-          "type": "tab",
+        "text_WBWxPf": {
+          "type": "text",
           "settings": {
-            "title": "BRAAM BEYERS",
-            "kicker": "",
-            "content": "<p>TESTING</p>"
-          }
-        },
-        "tab_aCmx3J": {
-          "type": "tab",
-          "settings": {
-            "title": "Kira Jacobs",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
-          }
-        },
-        "tab_qmHpC9": {
-          "type": "tab",
-          "settings": {
-            "title": "CHIARA TURELLI",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
-          }
-        },
-        "tab_WwJUYN": {
-          "type": "tab",
-          "settings": {
-            "title": "YAEL PINER",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
-          }
-        },
-        "tab_Qx8QkX": {
-          "type": "tab",
-          "settings": {
-            "title": "Stephanie Anastasopoulos",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
-          }
-        },
-        "tab_dyFnY8": {
-          "type": "tab",
-          "settings": {
-            "title": "David Schneider",
-            "kicker": "",
-            "content": "<p>Add your rich text content here. You can use <strong>bold</strong>, <em>italics</em>, links, and more.</p>"
+            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
+            "text_size": 5
           }
         }
       },
       "block_order": [
-        "tab_HCYkV9",
-        "tab_ULFCFK",
-        "tab_yDXGmr",
-        "tab_aCmx3J",
-        "tab_qmHpC9",
-        "tab_WwJUYN",
-        "tab_Qx8QkX",
-        "tab_dyFnY8"
+        "heading_EUTWqY",
+        "text_FbjTmG",
+        "text_WBWxPf"
+      ],
+      "disabled": true,
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/videoss.png",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-right",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_tabs_T9EK3m": {
+      "type": "section-double-tabs",
+      "blocks": {
+        "tab_6hCdPm": {
+          "type": "tab",
+          "settings": {
+            "title": "Natasha Sideris",
+            "kicker": "CEO TASHAS GROUP",
+            "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual - not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.”</p>"
+          }
+        },
+        "tab_KdFDXB": {
+          "type": "tab",
+          "settings": {
+            "title": "Ryan Cole",
+            "kicker": "HEAD CHEF AT SALSIFY",
+            "content": "<p>Ceremony resonates with me because ...</p>"
+          }
+        },
+        "tab_EAGQYc": {
+          "type": "tab",
+          "settings": {
+            "title": "Braam Beyers",
+            "kicker": "Previously: Beau Constantia, Tintswalo Atlantic, Benu ❀❀❀ , Eleven Madison Park ❀❀❀ , ASKA ❀❀ , Institut Paul Bocuse graduate",
+            "content": "<p>For me, food and beverage come down to three key elements: Sourcing the best product, delivering exceptional service and presenting it in an elegant, considered way. Ceremony Matcha embodies all three. There is a clear dedication to understanding the origin of matcha, respecting its preparation, and presenting it with a refined, modern sensibility.</p><p>Beyond enjoying their beverages, I consistently incorporate Ceremony Matcha into my dessert work, from whipped cheesecake and matcha ganache to filled choux — because of its purity, balance and reliability as an ingredient.  Ceremony Matcha is, quite simply, my standard.  </p>"
+          }
+        },
+        "tab_xBEnPk": {
+          "type": "tab",
+          "settings": {
+            "title": "Kira Jacobs",
+            "kicker": "Michelin-trained chef, Ceremony Menu development",
+            "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.</p>"
+          }
+        },
+        "tab_Xfqe6e": {
+          "type": "tab",
+          "settings": {
+            "title": "Chiara Turelli",
+            "kicker": "Co-Owner of Lello’s",
+            "content": "<p>I connected with Mikayla through our shared loved of quality. I admire the way she lives through her matcha daily. I drink Ceremony matcha with no milk, no sugar. The flavour profile of Ceremony is sacred for me as its flavour is grounded and full.</p>"
+          }
+        },
+        "tab_q8bNET": {
+          "type": "tab",
+          "settings": {
+            "title": "Yael Lapiner",
+            "kicker": "Culinary professional, board certified nutritional coach, consultant in food research & development, trend forecasting & strategist.",
+            "content": "<p>I’ve always been selective about matcha. From the perspective of a chef it has to tick three boxes. Origin, integrity & flavour. Ceremony ticks all three. Ceremony understands that matcha is more than a trend.</p><p>Ceremony deeply respects the roots of the ritual, the agricultural craftsmanship from leaf to tea & has gone straight to the source for us all to participate in this ancient, sacred ritual. This level of attention & devotion to quality reflects a seriousness that I look for as a quality control freak when procuring anything for myself or my clients.</p>"
+          }
+        },
+        "tab_pXMeUW": {
+          "type": "tab",
+          "settings": {
+            "title": "Stephanie Anastasopoulos",
+            "kicker": "Owner and Director - Arthur’s Mini Super",
+            "content": "<p>Ceremony’s triple matcha with full cream milk has become a treasured ritual for me. I can’t stay away. I don’t even drink coffee anymore which is sad because I have a coffee shop. I’m also a big fan of their togarashi cube (cheesy, flaky, buttery scone with a kick); the black sesame banana bread and the earl grey iced tea with lavender honey - yum!</p>"
+          }
+        },
+        "tab_nRcYr4": {
+          "type": "tab",
+          "settings": {
+            "title": "David Schneider",
+            "kicker": "Owner and chef - chefs warehouse",
+            "content": "<p>Ceremony’s triple matcha with full cream milk has become a treasured ritual for me. I can’t stay away. I don’t even drink coffee anymore which is sad because I have a coffee shop. I’m also a big fan of their togarashi cube (cheesy, flaky, buttery scone with a kick); the black sesame banana bread and the earl grey iced tea with lavender honey - yum!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_6hCdPm",
+        "tab_KdFDXB",
+        "tab_EAGQYc",
+        "tab_xBEnPk",
+        "tab_Xfqe6e",
+        "tab_q8bNET",
+        "tab_pXMeUW",
+        "tab_nRcYr4"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".standard__heading {text-transform: none;}"
       ],
       "name": "Image with tabs",
       "settings": {
@@ -301,8 +298,8 @@
         "brick_gutter": 0,
         "borders": false,
         "preload_image": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
     "related": {
@@ -380,6 +377,7 @@
         "text_LrGQmm",
         "text_e3Q4gq"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-faq {background-color: #c7bfab;}",
         ".standard__kicker {text-transform: none;}"
@@ -401,9 +399,9 @@
   },
   "order": [
     "main",
-    "section_hero_qrpC6i",
     "apps_cX7JKL",
-    "section_double_tabs_FqBNqg",
+    "section_hero_znQk96",
+    "section_double_tabs_T9EK3m",
     "related",
     "section_faq_ewrh9V"
   ]
