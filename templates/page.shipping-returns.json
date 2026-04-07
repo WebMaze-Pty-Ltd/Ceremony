@@ -1,0 +1,265 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_PgMYnY": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_CQtyYy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping",
+            "text_size": 8
+          }
+        },
+        "kicker_WzYyrq": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "WE TAKE THE SAME CARE SHIPPING YOUR MATCHA AS WE DO SOURCING IT.",
+            "enable_line": true,
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_CQtyYy",
+        "kicker_WzYyrq"
+      ],
+      "custom_css": [
+        ".rte p {font-size: 1rem;}",
+        ".standard__kicker {letter-spacing: 1%}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 160,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_QAXfBr": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_aJ4KQz": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<h5>LOCAL DELIVERY</h5><p>Orders within South Africa are delivered within 2–3 business days.</p><h5>INTERNATIONAL DELIVERY</h5><p>Due to current global conditions, international orders may take 2–3 weeks to arrive. Your matcha is sealed and packaged to remain completely fresh throughout the journey- it will be worth the wait.</p><p>Please note that international orders may be subject to customs duties, tariffs, or import fees upon arrival. These are the responsibility of the recipient. For any questions about applicable fees, we recommend contacting your local post office or delivery provider directly.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_xPAVxU": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<h5>PROTECTED WITH EVERY ORDER</h5><p>We've partnered with ITUNL to protect your order against loss, damage, or theft because once it leaves our hands, we still want it to reach yours. If your package is lost or arrives damaged, filing a claim is simple and straightforward. For packages marked as delivered but not received, claims must be filed between 5 and 15 days from the marked delivery date. For packages not marked as delivered, claims can be filed after 7 days from the last tracking checkpoint (20 days for international orders), and within 30 days of that checkpoint.</p><p>Any questions? Reach us at <a href=\"mailto:accounts@ceremonymatchabar.com\" title=\"mailto:accounts@ceremonymatchabar.com\">accounts@ceremonymatchabar.com</a> and we will take care of you.<br/><br/></p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_aJ4KQz",
+        "text_xPAVxU"
+      ],
+      "custom_css": [
+        ".rte p {font-size: 1rem; margin-bottom: 2rem; letter-spacing: 5%;}",
+        ".rte h5 {font-size: 1rem; margin-bottom: 1rem;}",
+        ".brick__block__text {align-items: start;}"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_richtext_d8QinX": {
+      "type": "section-richtext",
+      "custom_css": [
+        ".text__standard {border-top: 1px solid #94928c;}"
+      ],
+      "name": "Section break",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_ajbrNN": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_cFMxBH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Returns",
+            "text_size": 8
+          }
+        },
+        "kicker_Ee7Ym6": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "",
+            "enable_line": true,
+            "text_size": 4
+          }
+        }
+      },
+      "block_order": [
+        "heading_cFMxBH",
+        "kicker_Ee7Ym6"
+      ],
+      "custom_css": [
+        ".rte p {font-size: 1rem;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 88,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_U8aGyM": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_krcMLP": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p>At Ceremony, quality is not just a promise — it is our standard. If something is ever not right, we want to hear from you.</p><h5>OUR COMMITMENT</h5><p>We do not offer cash refunds. Where eligible, store credit will be issued so you can find something that truly works for you.</p><h5>MATCHA + TEAWARE</h5><p>Out of care for your safety and ours, we are unable to accept returns on any matcha-related goods, this includes The Matcha, The Chasen and The Chawan. As consumable and ceremonial goods, returns are not something we are able to accommodate at this time. That said, if your matcha does not meet your expectations in any way, please contact us immediately. We will make it right - no hesitation, guaranteed.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "text_xNATwM": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<h5>Merchandise</h5><p>For all other merchandise, returns are accepted within 7 days of receipt, provided the item is unused, in its original condition and with all labels intact. Items showing signs of wear or with labels removed will not be accepted for return or exchange. Please note that shipping fees are non-refundable. Any store credit or refund issued will reflect the product cost only.</p><h5>How to Start a Return</h5><p>Reach out to us before sending anything back and we will guide you through the process from there. We are here to make this as smooth as possible.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_krcMLP",
+        "text_xNATwM"
+      ],
+      "custom_css": [
+        ".rte p {font-size: 1rem; margin-bottom: 2rem; letter-spacing: 5%;}",
+        ".rte h5 {font-size: 1rem; margin-bottom: 1rem;}",
+        ".brick__block__text {align-items: start;}"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
+    "section_richtext_eFfRCp": {
+      "type": "section-richtext",
+      "custom_css": [
+        ".text__standard {border-top: 1px solid #94928c;}"
+      ],
+      "name": "Section break",
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_richtext_PgMYnY",
+    "section_custom_content_QAXfBr",
+    "section_richtext_d8QinX",
+    "section_richtext_ajbrNN",
+    "section_custom_content_U8aGyM",
+    "section_richtext_eFfRCp"
+  ]
+}
