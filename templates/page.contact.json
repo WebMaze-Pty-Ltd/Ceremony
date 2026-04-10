@@ -27,6 +27,25 @@
         "padding_bottom": 36
       }
     },
+    "section_hero_hLx9rR": {
+      "type": "section-hero",
+      "name": "Image banner",
+      "settings": {
+        "image": "shopify://shop_images/CONTACT_PAGE.jpg",
+        "height": "use_image",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--bottom-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_richtext_RjU8T7": {
       "type": "section-richtext",
       "blocks": {
@@ -49,12 +68,15 @@
         "bg": "palette--light bg--neutral",
         "content_width": 2000,
         "width": "wrapper",
-        "padding_top": 36,
+        "padding_top": 88,
         "padding_bottom": 36
       }
     },
     "section_liquid_6Qk37M": {
       "type": "section-liquid",
+      "custom_css": [
+        "#wsaio-form {padding-bottom: 88px;}"
+      ],
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": "<div id=\"wsaio-form\" data-id=\"6ee90cbc-c569-473b-b40a-e9a18ca59e17\" data-shop=\"7e4b9c-2.myshopify.com\"></div><script>(function(d, s, id){var js,wjs=d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js=d.createElement(s);js.id=id;js.src=\"https://wholesales.digitalcoo.com/forms/embed.js\";wjs.parentNode.insertBefore(js,wjs);}(document,'script','wsaio-customer-form-embed'));</script>"
@@ -63,6 +85,7 @@
   },
   "order": [
     "main",
+    "section_hero_hLx9rR",
     "section_richtext_RjU8T7",
     "section_liquid_6Qk37M"
   ]

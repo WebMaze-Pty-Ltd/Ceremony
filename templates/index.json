@@ -601,6 +601,164 @@
         "padding_bottom": 0
       }
     },
+    "section_video_ja7DqT": {
+      "type": "section-video",
+      "blocks": {
+        "heading_BtaWfd": {
+          "type": "heading",
+          "settings": {
+            "title": "Calm is a moment.",
+            "text_size": 10
+          }
+        },
+        "heading_6gg7PA": {
+          "type": "heading",
+          "settings": {
+            "title": "Capacity is an operating system",
+            "text_size": 10
+          }
+        },
+        "text_dMeCE8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Matcha optimises that system, delivering calm,</p>",
+            "text_size": 6
+          }
+        },
+        "text_RYW3GX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>sustained energy and focused clarity.</p>",
+            "text_size": 6
+          }
+        },
+        "button_TPC7m9": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop Now",
+            "link_1": "shopify://collections/matcha-products",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline",
+            "button_color_1": "btn--white",
+            "link_text_2": "The Science",
+            "link_2": "shopify://pages/benefits-of-matcha",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn--outline",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BtaWfd",
+        "heading_6gg7PA",
+        "text_dMeCE8",
+        "text_RYW3GX",
+        "button_TPC7m9"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.section-video {display: none; }}"
+      ],
+      "name": "Video banner [Desktop]",
+      "settings": {
+        "height": "use_image",
+        "color_bg": "palette--light bg--neutral",
+        "video_bg": "shopify://files/videos/Untitled (1920 x 1080 px).mp4",
+        "object_position": "center-center",
+        "preload_image": false,
+        "text_align": "align--bottom-right",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_video_xhC8Ga": {
+      "type": "section-video",
+      "blocks": {
+        "heading_LiWVtj": {
+          "type": "heading",
+          "settings": {
+            "title": "Calm is a moment.",
+            "text_size": 10
+          }
+        },
+        "heading_ipccbL": {
+          "type": "heading",
+          "settings": {
+            "title": "Capacity is an operating system",
+            "text_size": 10
+          }
+        },
+        "text_c3eXcH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Matcha optimises that system, delivering calm,</p>",
+            "text_size": 6
+          }
+        },
+        "text_7MtxKF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>sustained energy and focused clarity.</p>",
+            "text_size": 6
+          }
+        },
+        "button_rNWTqJ": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop Now",
+            "link_1": "shopify://collections/matcha-products",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline",
+            "button_color_1": "btn--white",
+            "link_text_2": "The Science",
+            "link_2": "shopify://pages/benefits-of-matcha",
+            "button_size_2": "btn--medium",
+            "button_style_2": "btn--outline",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LiWVtj",
+        "heading_ipccbL",
+        "text_c3eXcH",
+        "text_7MtxKF",
+        "button_rNWTqJ"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.section-video {display: none; }}"
+      ],
+      "name": "Video banner [Mobile]",
+      "settings": {
+        "height": "use_image",
+        "color_bg": "palette--light bg--neutral",
+        "video_bg": "shopify://files/videos/Solid Gradient Baby Green.mp4",
+        "object_position": "center-center",
+        "preload_image": false,
+        "text_align": "align--bottom-right",
+        "text_color": "text--white",
+        "overlay_opacity": 15,
+        "overlay_color": "#000",
+        "enable_overlay_text": false,
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_hero_nXkxnG": {
       "type": "section-hero",
       "blocks": {
@@ -652,6 +810,7 @@
         "text_PYa4qb",
         "button_CqnqaC"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "image": "shopify://shop_images/GRADIENT_VIDEO.webp",
@@ -1065,6 +1224,8 @@
     "section_icons_kjCjxx",
     "section_hero_AJ3xXx",
     "section_hero_wK66xV",
+    "section_video_ja7DqT",
+    "section_video_xhC8Ga",
     "section_hero_nXkxnG",
     "section_richtext_TDWRU6",
     "section_image_qUdeKp",
