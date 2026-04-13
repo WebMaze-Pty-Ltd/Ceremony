@@ -44,7 +44,7 @@
           "type": "button",
           "settings": {
             "link_text_1": "Shop Now",
-            "link_1": "",
+            "link_1": "shopify://collections/all",
             "button_size_1": "btn--long",
             "button_style_1": "btn--outline",
             "button_color_1": "btn--white",
@@ -556,33 +556,12 @@
             "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
             "text_size": 5
           }
-        },
-        "button_GgmV8x": {
-          "type": "button",
-          "settings": {
-            "link_text_1": "What our community said..",
-            "link_1": "shopify://collections/matcha-products",
-            "button_size_1": "btn--medium",
-            "button_style_1": "btn--outline",
-            "button_color_1": "btn--white",
-            "link_text_2": "",
-            "link_2": "",
-            "button_size_2": "btn--medium",
-            "button_style_2": "btn--outline",
-            "button_color_2": "btn--white",
-            "link_text_3": "",
-            "link_3": "",
-            "button_size_3": "btn--long",
-            "button_style_3": "btn-text-thick-line",
-            "button_color_3": "btn--white"
-          }
         }
       },
       "block_order": [
         "heading_7z3WmC",
         "text_EFpiBW",
-        "text_UEjFQ9",
-        "button_GgmV8x"
+        "text_UEjFQ9"
       ],
       "name": "Image banner",
       "settings": {
@@ -673,7 +652,7 @@
         "text_align": "align--bottom-right",
         "text_color": "text--white",
         "overlay_opacity": 15,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "enable_overlay_text": false,
         "width": "wrapper--none",
         "padding_top": 0,
@@ -752,7 +731,7 @@
         "text_align": "align--bottom-right",
         "text_color": "text--white",
         "overlay_opacity": 15,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "enable_overlay_text": false,
         "width": "wrapper--none",
         "padding_top": 0,

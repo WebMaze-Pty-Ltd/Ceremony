@@ -89,7 +89,7 @@
         ".btn--outline {background-color: #25332a; color: white; border-radius: 0px;}"
       ],
       "settings": {
-        "layout": "none@mosaic",
+        "layout": "thumbnails-below@slides",
         "image_width": "half",
         "image_spacing": 10,
         "align": "left",
