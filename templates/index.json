@@ -43,7 +43,7 @@
         "button_PDyRrM": {
           "type": "button",
           "settings": {
-            "link_text_1": "Shop Now",
+            "link_text_1": "Shop Ceremony",
             "link_1": "shopify://collections/all",
             "button_size_1": "btn--long",
             "button_style_1": "btn--outline",
@@ -73,7 +73,7 @@
       ],
       "name": "Video banner",
       "settings": {
-        "height": "use_image",
+        "height": "use_pixels_650",
         "color_bg": "palette--light bg--neutral",
         "video_bg": "shopify://files/videos/Ceremony_Matcha_ASMR_Film_V2.mov",
         "object_position": "center-center",
@@ -93,6 +93,7 @@
       "blocks": {
         "kicker_4h6nCE": {
           "type": "kicker",
+          "disabled": true,
           "settings": {
             "kicker": "BASED ON CLINICAL EVIDENCE",
             "enable_line": false,
@@ -101,6 +102,7 @@
         },
         "heading_FTNxGM": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Matcha delivers a concentrated source of L-theanine paired with caffeine that has been shown in multiple studies to support sustained cognitive focus and calm alertness without the typical “crash” associated with coffee, thanks to the synergistic effect of these compounds when consumed together.",
             "text_size": 9
@@ -290,6 +292,7 @@
       "blocks": {
         "tab_JAzVrn": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Natasha Sideris",
             "kicker": "CEO TASHAS GROUP",
@@ -298,6 +301,7 @@
         },
         "tab_naP3XB": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Ryan Cole",
             "kicker": "HEAD CHEF AT SALSIFY",
@@ -316,7 +320,7 @@
           "type": "tab",
           "settings": {
             "title": "Kira Jacobs",
-            "kicker": "Michelin-trained chef, Ceremony Menu development",
+            "kicker": "Previously OKJA, Doing Well. Michelin-trained Cordon Bleu Chef and Ceremony Menu development",
             "content": "<p>Ceremony resonates with me because it treats ingredients with respect. It’s intentional, considered, and rooted in ritual not trends. Everything feels purposeful, from the matcha itself to the way it’s prepared and shared.</p>"
           }
         },
@@ -346,6 +350,7 @@
         },
         "tab_JeT84F": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "David Schneider",
             "kicker": "Owner and chef - chefs warehouse",
@@ -454,7 +459,7 @@
         "align_text": "text-center",
         "width": "wrapper",
         "padding_top": 88,
-        "padding_bottom": 0
+        "padding_bottom": 88
       }
     },
     "section_hero_AJ3xXx": {
@@ -546,22 +551,43 @@
         "text_EFpiBW": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Naturally active matcha compounds.</p>",
+            "richtext": "<p>Since launching in South Africa in October 2022, we’ve grown a community rooted in a shared appreciation for matcha, ritual, and intentional living.</p>",
             "text_size": 5
           }
         },
         "text_UEjFQ9": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
+            "richtext": "",
             "text_size": 5
+          }
+        },
+        "button_EK7Xxw": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Join the Ceremony",
+            "link_1": "https://www.instagram.com/ceremonysouthafrica/",
+            "button_size_1": "btn--medium",
+            "button_style_1": "btn--outline",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
           }
         }
       },
       "block_order": [
         "heading_7z3WmC",
         "text_EFpiBW",
-        "text_UEjFQ9"
+        "text_UEjFQ9",
+        "button_EK7Xxw"
       ],
       "name": "Image banner",
       "settings": {
@@ -820,9 +846,9 @@
         "text_CqJqk4": {
           "type": "text",
           "settings": {
-            "text": "<p>Naturally active matcha compounds. Sustained energy. Calm focus. No crash.</p>",
+            "text": "<p>Coffee delivers a rapid caffeine spike followed by a notable energy dip in the first few hours. Matcha, by contrast, offers a slower, steadier rise into a \"balanced energy window\"  The difference comes down to how each releases caffeine, and how L-theanine in matcha promotes calm, sustained alertness over 4 – 8 hours.</p>",
             "text_size": 4,
-            "text_columns": 3
+            "text_columns": 1
           }
         }
       },
@@ -845,7 +871,7 @@
       "type": "section-image",
       "name": "Image",
       "settings": {
-        "image": "shopify://shop_images/graph.webp",
+        "image": "shopify://shop_images/Ceremony_energy_curve_12081c1b-5b80-4f7b-b6db-06726335b8e6.jpg",
         "max_width": 100,
         "x_align": "center",
         "color_bg": "palette--light bg--neutral",
@@ -1082,14 +1108,14 @@
         "text_Wi4zc3": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Naturally active matcha compounds.</p>",
+            "richtext": "",
             "text_size": 5
           }
         },
         "text_qXG9fE": {
           "type": "text",
           "settings": {
-            "richtext": "<p>Sustained energy. Calm focus. No crash.</p>",
+            "richtext": "",
             "text_size": 5
           }
         }
