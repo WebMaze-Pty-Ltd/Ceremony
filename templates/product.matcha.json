@@ -214,6 +214,7 @@
       "blocks": {
         "tab_EaUQkb": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Natasha Sideris",
             "kicker": "CEO TASHAS GROUP",
@@ -222,6 +223,7 @@
         },
         "tab_cgNa63": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "Ryan Cole",
             "kicker": "HEAD CHEF AT SALSIFY",
@@ -270,6 +272,7 @@
         },
         "tab_RaQtVD": {
           "type": "tab",
+          "disabled": true,
           "settings": {
             "title": "David Schneider",
             "kicker": "Owner and chef - chefs warehouse",

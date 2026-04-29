@@ -8,13 +8,54 @@
  * ------------------------------------------------------------
  */
 {
-	"sections": {
-		"main": {
-			"type": "page",
-			"settings": {}
-		}
-	},
-	"order": [
-		"main"
-	]
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_blog_KjXyYd": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "title": "MATCHA BLOG",
+        "homepage_blog": "",
+        "homepage_blog_count": 9,
+        "progress_bar": "mobile",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "wh_ratio": 1.7,
+        "show_author": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_preview": false,
+        "show_link": false,
+        "bg": "palette--light bg--neutral",
+        "color": "text--white",
+        "show_view_all": false,
+        "button_style": "btn--outline",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_blog_KjXyYd"
+  ]
 }

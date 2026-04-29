@@ -17,7 +17,7 @@
         "linklist-1": {
           "type": "linklist",
           "settings": {
-            "linklist": "main-menu-copy",
+            "linklist": "footer-column-1",
             "title": "",
             "accordion_default": "accordion-is-open"
           }
@@ -25,7 +25,7 @@
         "linklist_NPjgzJ": {
           "type": "linklist",
           "settings": {
-            "linklist": "footer-menu-2",
+            "linklist": "footer-column-2",
             "title": "",
             "accordion_default": "accordion-is-open"
           }
@@ -33,7 +33,7 @@
         "linklist_wW4zBN": {
           "type": "linklist",
           "settings": {
-            "linklist": "footer-menu-2-copy",
+            "linklist": "footer-column-3",
             "title": "",
             "accordion_default": "accordion-is-open"
           }
